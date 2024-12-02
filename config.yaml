@@ -161,7 +161,7 @@ params:
     enable: true
     title: "Expérience proffessionelles"
     items:
-      - job: " "
+      - job: ""
         company: "Forges de Bologne"
         companyUrl: "https://example.com"
         date: "20 Mars 2023 - 14 Avril 2023 et 21 Novembre 2023-8 Decembre 2023"
@@ -169,7 +169,7 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "Stage réalise en Terminal bac pro lors de mes deux période de stage"
+        content: "Stage réalisé en Terminal bac pro lors de mes deux période de stage"
 
       - job: ""
         company: "Conseil départemental Chaumont"
@@ -179,6 +179,16 @@ params:
           enable: false
           url: "https://example.com"                 
           content: "Stage réalisé en premiere bac pro lors de mes deux periodes de stage"
+          
+       - job: ""
+        company: "Hopital de Chaumont"
+        companyUrl: "https://example.com"
+        date: "27 mai au 28 juin"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: "Stage réalisé lors de ma première année de BTS SIO"
         
 
       
