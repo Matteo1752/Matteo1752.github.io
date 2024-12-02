@@ -1,6 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown syntax on Hugo Profile</title><link>https://hugo-profile.netlify.app/tags/markdown-syntax/</link><description>Recent content in Markdown syntax on Hugo Profile</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate><atom:link href="https://hugo-profile.netlify.app/tags/markdown-syntax/index.xml" rel="self" type="application/rss+xml"/><item><title>Render Math With Mathjax</title><link>https://hugo-profile.netlify.app/blogs/math/</link><pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate><guid>https://hugo-profile.netlify.app/blogs/math/</guid><description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
-Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.
-Then, use $$ ... $$ on a line by itself to render a block equation:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$
-The raw version is:
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description></item><item><title>Markdown Syntax</title><link>https://hugo-profile.netlify.app/blogs/markdown-syntax/</link><pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate><guid>https://hugo-profile.netlify.app/blogs/markdown-syntax/</guid><description>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown Syntax on Matteo profile</title>
+    <link>http://localhost:1313/tags/markdown-syntax/</link>
+    <description>Recent content in Markdown Syntax on Matteo profile</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/markdown-syntax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Render Math With Mathjax</title>
+      <link>http://localhost:1313/ap/ap03/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/ap/ap03/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;Vous travaillez pour une entreprise qui souhaite se lancer dans les petits jeux ludiques en ligne. II. Mission 1 : Les besoins&lt;/p&gt;&#xA;&lt;p&gt;On vous demande de coder en JavaScript un jeu dont le principe est simple :&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;il faut cliquer sur une image.&#xA;à chaque clic le score augmente de 1.&#xA;pour arriver au niveau 1, il faut 15 clics, puis pour chaque niveau suivant on multiplie par 2 le nombre de clics nécessaires au niveau précédent (niveau 1 : 15 clics, niveau 2 : 30 clics, niveau 3 : 60 clics, niveau 4 : 120 clics, …).&#xA;a chaque fois que l’on arrive au niveau supérieur, le nombre de clics actuel devient le nombre de clics auquel on retire le nombre de clics utilisés pour passer au niveau supérieur.&#xA;On veut que les joueurs puissent se connecter avec leur nom / mot de passe grâce à un formulaire de connexion.&#xA;Lorsqu’un joueur se connecte, le jeu s’initialise avec le nombre de clics et le niveau qui correspondent à son compte dans la base de données.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;ii---résultat-à-obtenir&#34;&gt;II - Résultat à obtenir&lt;/h2&gt;&#xA;&lt;center&gt;&lt;img src=&#34;http://localhost:1313/images/Ap/clics.png&#34;&gt;&lt;/center&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax</title>
+      <link>http://localhost:1313/ap/ap02/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/ap/ap02/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;La généralisation des nouvelles technologies dans notre quotidien et dans le monde professionnel nécessite que chaque individu soit identifié de manière unique et sûre. En effet, cela est indispensable si l’on veut avoir une bonne traçabilité des actions de chaque utilisateur et ainsi de pouvoir garantir une bonne confidentialité.&lt;/p&gt;&#xA;&lt;p&gt;L’identification permet donc de connaître l’identité d’une personne alors que l’authentification permet de vérifier cette identité.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

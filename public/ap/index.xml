@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aps on Matteo profile</title>
+    <link>http://localhost:1313/ap/</link>
+    <description>Recent content in Aps on Matteo profile</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 30 Sep 2023 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/ap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AP01 PHP</title>
+      <link>http://localhost:1313/ap/ap01/</link>
+      <pubDate>Sat, 30 Sep 2023 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/ap/ap01/</guid>
+      <description>&lt;p&gt;La mission était de crée un formulaire et de le traiter en php&lt;/p&gt;&#xA;&lt;h1 id=&#34;ap-creéation-dun-formulaire-et-traitement-avec--du-php&#34;&gt;AP: Creéation d&amp;rsquo;un formulaire et traitement avec  du PHP&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-objectif-de-lactivité&#34;&gt;1) Objectif de l&amp;rsquo;activité&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Réaliser un formulaire en HTML et CSS en respectant une charte graphique.&lt;/li&gt;&#xA;&lt;li&gt;Respecter les normes et standards du W3C en utilisant les outils de validation du code puis en corrigeant les erreurs.&lt;/li&gt;&#xA;&lt;li&gt;Découverte du langage PHP et de son exécution.&lt;/li&gt;&#xA;&lt;li&gt;Traiter un formulaire HTML en PHP.&lt;/li&gt;&#xA;&lt;li&gt;Débogage d’erreurs en PHP.&lt;/li&gt;&#xA;&lt;li&gt;Structures conditionnelles en PHP.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ii---résultat&#34;&gt;II - Résultat&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Résultat du formulaire HTML&#xA;&lt;img src=&#34;http://localhost:1313/images/Ap/resultat.png&#34; alt=&#34;&#34;&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Résultat du traitement avec PHP&#xA;&lt;img src=&#34;http://localhost:1313/images/Ap/resultat_mod.png&#34; alt=&#34;&#34;&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Render Math With Mathjax</title>
+      <link>http://localhost:1313/ap/ap03/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/ap/ap03/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;Vous travaillez pour une entreprise qui souhaite se lancer dans les petits jeux ludiques en ligne. II. Mission 1 : Les besoins&lt;/p&gt;&#xA;&lt;p&gt;On vous demande de coder en JavaScript un jeu dont le principe est simple :&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;il faut cliquer sur une image.&#xA;à chaque clic le score augmente de 1.&#xA;pour arriver au niveau 1, il faut 15 clics, puis pour chaque niveau suivant on multiplie par 2 le nombre de clics nécessaires au niveau précédent (niveau 1 : 15 clics, niveau 2 : 30 clics, niveau 3 : 60 clics, niveau 4 : 120 clics, …).&#xA;a chaque fois que l’on arrive au niveau supérieur, le nombre de clics actuel devient le nombre de clics auquel on retire le nombre de clics utilisés pour passer au niveau supérieur.&#xA;On veut que les joueurs puissent se connecter avec leur nom / mot de passe grâce à un formulaire de connexion.&#xA;Lorsqu’un joueur se connecte, le jeu s’initialise avec le nombre de clics et le niveau qui correspondent à son compte dans la base de données.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;ii---résultat-à-obtenir&#34;&gt;II - Résultat à obtenir&lt;/h2&gt;&#xA;&lt;center&gt;&lt;img src=&#34;http://localhost:1313/images/Ap/clics.png&#34;&gt;&lt;/center&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax</title>
+      <link>http://localhost:1313/ap/ap02/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/ap/ap02/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;La généralisation des nouvelles technologies dans notre quotidien et dans le monde professionnel nécessite que chaque individu soit identifié de manière unique et sûre. En effet, cela est indispensable si l’on veut avoir une bonne traçabilité des actions de chaque utilisateur et ainsi de pouvoir garantir une bonne confidentialité.&lt;/p&gt;&#xA;&lt;p&gt;L’identification permet donc de connaître l’identité d’une personne alors que l’authentification permet de vérifier cette identité.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Placeholder Text</title>
+      <link>http://localhost:1313/ap/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>http://localhost:1313/ap/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;&#xA;&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;&#xA;&lt;li&gt;Duce pollice&lt;/li&gt;&#xA;&lt;li&gt;Eris modo&lt;/li&gt;&#xA;&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
