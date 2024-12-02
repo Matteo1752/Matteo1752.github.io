@@ -159,7 +159,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "Expérience proffessionelles"
+    title: "Expériences professionelles"
     items:
       - job: ""
         company: "Forges de Bologne"
@@ -188,7 +188,7 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "Stage réalisé lors de ma première année de BTS SIO"
+          content: "Stage réalisé lors de ma première année de BTS SIO"
         
 
       
