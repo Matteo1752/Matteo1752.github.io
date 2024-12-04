@@ -29,7 +29,7 @@ Menus:
       title: Ap stages
       url: /Ap
       weight: 1
-    
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -63,7 +63,7 @@ params:
   # This requires your images to be uploaded + hosted on Cloudinary
   # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
   # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-  
+
   # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
 
@@ -133,7 +133,7 @@ params:
       url: "#"
       download: true
       newPage: false
-    
+
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -144,7 +144,7 @@ params:
     title: "A propos de moi"
     image: "/images/Ap/images.jpeg"
     content: |-
-     Je suis actuellment étudiant au Lycée Edme Bouchardon a Chaumont en BTS SIO (Services Informatiques aux Organisations).J'ai choisi l'option SISR ( Solution Infrastructures,Systeme et Réseaux).
+     Je suis actuellement étudiant au Lycée Edme Bouchardon a Chaumont en BTS SIO (Services Informatiques aux Organisations).J ai choisi l'option SISR ( Solution Infrastructures,Systeme et Réseaux).
     skills:
       enable: true
       title: "Je posséde plusieurs compétences d'informatique:"
@@ -176,22 +176,20 @@ params:
         companyUrl: "https://example.com"
         date: "17 janvier 2022 au 4 Février 2022 et 30 Mai 2022 au 8 Juillet 2022"
         featuredLink:
-          enable: false
-          url: "https://example.com"                 
-          content: "Stage réalisé en premiere bac pro lors de mes deux periodes de stage"
-          
-       - job: ""
+        enable: false
+        url: "https://example.com"
+        content: "Stage réalisé en premiere bac pro lors de mes deux periodes de stage"
+      - job: ""
         company: "Hopital de Chaumont"
         companyUrl: "https://example.com"
         date: "27 mai au 28 juin"
         featuredLink:
-          enable: false
-          name: "View the project"
-          url: "https://example.com"
-          content: "Stage réalisé lors de ma première année de BTS SIO"
-        
+        enable: false
+        name: "View the project"
+        url: "https://example.com"
+        content: "Stage réalisé lors de ma première année de BTS SIO"
 
-      
+
 
   # Education
   education:
@@ -204,22 +202,20 @@ params:
           name: "Lycée Edme Bouchardon,Chaumont"
           url: "https://example.org"
         date: "2023 - 2025"
-        
         content: |-
-          
       - title: "Baccalauréat Pro Lycée Eugene Decomble"
         school:
           name: "Lycée Eugene Decomble,Chaumont"
           url: "https://example.org"
         date: "2021 - 2023"
-        
+
         content: |-
           Au lycée Eugène Decomble j'ai pris l'option RISC (Réseaux Informatique et Systèmes Communicants)
         featuredLink:
           enable: false
 
 
-  
+
   # projects
   projects:
     enable: true
@@ -233,7 +229,6 @@ params:
           link: https://hugo-profile.netlify.app
         badges:
           - "Hugo"
-          
   #Contact
   contact:
     enable: false
