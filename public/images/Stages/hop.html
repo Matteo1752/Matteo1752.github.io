@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="fr" class="localpartner">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    
+    <link rel="shortcut icon" type="image/x-icon"
+          href="/statics/figarosante/imgs/favicon.ico?v=20210909145200"/>
+    <script>
+    //from https://github.com/kaimallea/isMobile
+    !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/IEMobile/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");return"undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+</script>
+
+<!-- Google Tag Manager -->
+<script type="text/javascript">
+    dataLayer = [{
+        "BU_level1":"AnnuaireSante",
+        "BU_level2":"FD",
+        "BU_level3":"",
+        "BU_pageCategory":"partenaire",
+        "BU_environnement":"production"
+    }];
+</script>
+
+<script type="text/javascript" src="//a.f1g.fr/datalayer/datalayer-provider.js"></script>
+<script>
+    var jsDataLayer = new DataLayerProvider();
+    jsDataLayer.init({
+        isPremium: false,
+        customEvents: false
+    });
+    dataLayer.push(jsDataLayer.getDataBU());
+</script>
+
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KJK72HJ');</script>
+<!-- End Google Tag Manager -->
+<link href="/assets/solocaladpfrontend/externe_partner_components/figarosante/css/partner_header.css?v=20250305160622" rel="stylesheet">
+<script src="/assets/solocaladpfrontend/externe_partner_components/figarosante/js/partner_header.js?v=20250305160622"></script>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">                    
+    <link rel="stylesheet" type="text/css" href="/assets/solocaladpfrontend/css/leaflet.css"/>
+
+            <link type="text/css" rel="stylesheet"
+              href="/statics/_common/css/main.min.css?v=20250305160622&amp;nocache" media="all">
+        <link type="text/css" rel="stylesheet"
+              href="/statics/_common/css/main_mobile_only.min.css?v=20250305160622&amp;nocache"
+              media="(max-width: 767px)">
+        <link type="text/css" rel="stylesheet"
+              href="/statics/_common/css/main_mobile_small.min.css?v=20250305160622&amp;nocache"
+              media="(max-width: 380px)">
+        <link type="text/css" rel="stylesheet"
+              href="/statics/_common/css/main_tablet.min.css?v=20250305160622&amp;nocache"
+              media="(min-width: 768px)">
+        <link type="text/css" rel="stylesheet"
+              href="/statics/_common/css/main_desktop.min.css?v=20250305160622&amp;nocache"
+              media="(min-width: 980px)">
+        <link type="text/css" rel="stylesheet"
+              href="/statics/_common/css/main_desktop_wide.min.css?v=20250305160622&amp;nocache"
+              media="(min-width: 1200px)">
+        <link rel="stylesheet" href="/assets/solocaladpfrontend/css/cnilCookie.css?v=20250305160622&amp;nocache">
+
+    <link type="text/css" rel="stylesheet"
+          href="/statics/figarosante/css/extra.css?v=20210909145200">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Meta -->
+    <title>
+        Centre Hospitalier Chaumont à Chaumont    </title>
+    <meta name="description" content="Centre Hospitalier Chaumont à Chaumont Hôpital. Trouvez et contactez un professionnel de santé en quelques clics : coordonnées, prise de RDV…toutes les informations sur l&#039;annuaire Le Figaro.">
+
+    <link rel="canonical" href="https://annuaire.lefigaro.fr/professionnels/VlpQV0BfQlQ"/>
+
+    
+    <script src="/assets/solocaladpfrontend/js/jquery-3.1.0.min.js"></script>
+    <script src="/assets/solocaladpfrontend/js/jquery-ui.js"></script>
+    <script defer src="/assets/solocaladpfrontend/js/javascript.js"></script>
+    <script src="/assets/solocaladpfrontend/js/autocompletepj.js"></script>
+
+    <!-- AT internet -->
+    <script type="text/javascript">
+        window.pdl = window.pdl || {};
+        window.pdl.requireConsent = true;
+        window.pdl.consent = {
+            defaultPreset: {
+                PA: 'essential'
+            }
+        };
+
+        window.pdl.consent_items = {
+                            "PA": {
+                                "properties":
+                                    {
+                                        'site_level2': 'essential',
+                                        'epj': 'essential',
+                                        'id_requete': 'essential',
+                                        'typologie_site': 'essential'
+                                    }
+                            }
+                        };
+        
+        window._pac = window._pac || {};
+    </script>
+    <script src="/assets/solocaladpfrontend/js/piano-analytics-46a4ab7f29.js"></script>
+    <script type="text/javascript" src="/assets/solocaladpfrontend/js/configuresmarttagprivacy.js"
+            defer></script>
+    <script src="/assets/solocaladpfrontend/js/jquery.waypoints.min.js"></script>
+    <script>
+        const AtInternetDirSlug = 'figarosante';
+        const AtInternetTypePageDirectory = 'FD_SEO';
+                const AtInternetPartnerId = '2';
+            </script>
+    <script defer src="/assets/solocaladpfrontend/js/adpJam.js?v=20250305160622"></script>
+    <script src="/assets/solocaladpfrontend/js/bootstrap.441.min.js"></script>
+    <script src="/assets/solocaladpfrontend/js/cnilCookie.js?v=20250305160622"></script>
+    <script src="/assets/solocaladpfrontend/js/common/modal.js?v=20250305160622" defer></script>
+    <script src="/assets/solocaladpfrontend/js/common/header.js" defer></script>
+    <script type="text/javascript" src="/assets/solocaladpfrontend/js/common/expand.js" defer></script>
+    <script type="text/javascript" src="/assets/solocaladpfrontend/js/pjh.min.js"
+            charset="UTF-8"></script>
+    <script type="text/javascript">
+        var urlAladin = "https://www.pagesjaunes.fr/pmp/";
+    </script>
+
+        <script>const HERE_TOKEN = "eyJhbGciOiJSUzUxMiIsImN0eSI6IkpXVCIsImlzcyI6IkhFUkUiLCJhaWQiOiJtQkNjTG9SWGxpT1lMOHhGRk0xYiIsImlhdCI6MTc0MTYwMDQ0OSwiZXhwIjoxNzQxNjg2ODQ5LCJraWQiOiJqMSJ9.ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJRMEpETFVoVE5URXlJbjAuLkVac2c0TVVlcHlMYVl5Z1RIenRVYUEuUXNNNVU4eUh6bTcwOGZUcUVXV3lHOHE5b3c3VGN5QWt0RVhuNzBhUk94eVFLNWhlMDNQdkQ4Z3dpeXYxQldfOUZPWERILUUyY3VjaTJNZnVUOVBOWUNLc2VJdm8zWThJU3ptTmRkN0wwLVdNV1ZtS2gxNV9IanA0S25uWTQzNDAtTDI0dm9uZnltR0xDRlZFR2tDOXMyUzJrVHR1Q0dWQXhqSHhWS0JaZ3ZVLkNWeWJJajJjeFVVMlptYzVLd0h0RW9XYlA1ckxzRFo3WWxiQ3ZGUGtzSzg.Ii_FGn7RMhaPprehxOWKbbDPmE_SNhhAEYaJ_7aTUG71tdxQULV3hVcalOftZyZ7HV93mxNwgZkiW-li5TYHsiUdZhaJOYZ-gaTuTgMpxB6N-Vp8IMki4xxqxf-08wjLF1YEL-roI8hXxJRoWTpsvV4KTdMwNhnBT4g2-BfDwRWliRFNgzeMSwAbVKWbISQAmsjtZPJOp1DpNr2IodBNdxdNiFp-_7BYMt2F37gv42WCDk6BCyXV8sM1P5DyrFx27GmqNfmpxkE0aPi5Qq1YvAYV-ziKQVn06-ojI2RIRAs87ZyPFkccj6a7rqkPpnsR4HBnIKTymtlyohk_dG17mA"</script>
+    <script type="text/javascript" src="/assets/solocaladpfrontend/js/map/leaflet/leaflet-src.js"></script>
+    <script type="text/javascript" src="/assets/solocaladpfrontend/js/map/leaflet/plugin/leaflet.leaflet-header.js"></script>
+
+            <!-- typed -->
+                <script type="text/javascript" defer src="/assets/solocaladpfrontend/js/typed.min.js"></script>
+    
+                                <script type="application/ld+json">
+                                [{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/annuaire.lefigaro.fr","name":"Le Figaro Sant\u00e9"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/annuaire.lefigaro.fr\/annuaire\/region\/champagne-ardenne\/addictions","name":"H\u00f4pital"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/annuaire.lefigaro.fr\/annuaire\/region\/champagne-ardenne\/addictions","name":"Addictions en Champagne ardenne"}},{"@type":"ListItem","position":4,"item":{"@id":"https:\/\/annuaire.lefigaro.fr\/professionnels\/VlpQV0BfQlQ","name":"Centre Hospitalier Chaumont"}}]},{"@context":"http:\/\/schema.org","@type":"LocalBusiness","image":"https:\/\/www.pagesjaunes.fr\/media\/agc\/2e\/c6\/95\/00\/00\/6b\/43\/78\/0f\/ac\/61002ec69500006b43780fac\/61002ec69500006b43780fad.png","url":"https:\/\/annuaire.lefigaro.fr\/professionnels\/VlpQV0BfQlQ","name":"Centre Hospitalier Chaumont","priceRange":"","address":{"@type":"PostalAddress","streetAddress":"2 r Jeanne d&#039;Arc","addressLocality":"Chaumont","postalCode":"52000","addressCountry":"France"},"photo":[{"@type":"Photograph","image":"https:\/\/www.pagesjaunes.fr\/media\/agc\/2e\/c6\/95\/00\/00\/6b\/43\/78\/0f\/ae\/61002ec69500006b43780fae\/61002ec69500006b43780faf.jpg","keywords":"Centre Hospitalier Chaumont H\u00f4pital Chaumont"},{"@type":"Photograph","image":"https:\/\/www.pagesjaunes.fr\/media\/agc\/fb\/b9\/73\/00\/00\/40\/f2\/38\/f4\/c3\/5f9bfbb973000040f238f4c3\/5f9bfbb973000040f238f4c4.png","keywords":"Centre Hospitalier Chaumont H\u00f4pital Chaumont"},{"@type":"Photograph","image":"https:\/\/www.pagesjaunes.fr\/media\/agc\/fb\/b8\/4d\/00\/00\/43\/c5\/1c\/67\/35\/5f9bfbb84d000043c51c6735\/5f9bfbb84d000043c51c6736.png","keywords":"Centre Hospitalier Chaumont H\u00f4pital Chaumont"}]}]
+            </script>
+            
+    <!-- Hotjar Tracking Code for https://annuaire.lefigaro.fr/ -->
+    </head>
+
+    
+                    
+                
+                                        
+                
+
+<body class="adp-figarosante fd ab_testing">
+    <div id="js-modal-redirection" role="dialog">
+    <div class="content">
+            <img src="/statics/_common/imgs/pj/logo_pagesjaunes.png" alt="">
+                <p>
+            Vous allez être redirigé vers un service PagesJaunes
+        </p>   
+        </div>
+</div>
+            <script type="text/javascript">
+            // init js if available
+            $(document).ready(function () {
+                $("body").addClass('adp-js-on');
+            });
+        </script>
+    
+
+<nav class="nav-avoid-link header-wrapper">
+    <a href="#main" class="link" tabindex="1">Aller au contenu principal </a>
+</nav>
+
+
+<div id="adp-js-core">
+    <div class="header_partner">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJK72HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<script>!function(){var e=function(){var e,t="__tcfapiLocator",a=[],n=window;for(;n;){try{if(n.frames[t]){e=n;break}}catch(e){}if(n===window.top)break;n=n.parent}e||(!function e(){var a=n.document,r=!!n.frames[t];if(!r)if(a.body){var s=a.createElement("iframe");s.style.cssText="display:none",s.name=t,a.body.appendChild(s)}else setTimeout(e,5);return!r}(),n.__tcfapi=function(){for(var e,t=arguments.length,n=new Array(t),r=0;r<t;r++)n[r]=arguments[r];if(!n.length)return a;if("setGdprApplies"===n[0])n.length>3&&2===parseInt(n[1],10)&&"boolean"==typeof n[3]&&(e=n[3],"function"==typeof n[2]&&n[2]("set",!0));else if("ping"===n[0]){var s={gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"};"function"==typeof n[2]&&n[2](s)}else a.push(n)},n.addEventListener("message",(function(e){var t="string"==typeof e.data,a={};try{a=t?JSON.parse(e.data):e.data}catch(e){}var n=a.__tcfapiCall;n&&window.__tcfapi(n.command,n.version,(function(a,r){var s={__tcfapiReturn:{returnValue:a,success:r,callId:n.callId}};t&&(s=JSON.stringify(s)),e&&e.source&&e.source.postMessage&&e.source.postMessage(s,"*")}),n.parameter)}),!1))};"undefined"!=typeof module?module.exports=e:e()}();</script><style>#fig-header .figh__full, #fig-header .collapsed_content, .fig-secondary-background, #fig-footer { background-color: #00857b; } .fig-secondary-color { color: #00857b; } #fig-header .figh-keyword__link, #fig-header .figh-abo__link, #fig-header .figh a, #fig-footer .figh-footer__link { color: #ffffff; } #fig-header .figh-keyword__link--more { border-color: #ffffff; } #fig-header .figh-keyword__item--current a { color: #ffffff; } .figh__not-ios #fig-header .figh-keyword__item--current a:hover, #fig-header .figh-keyword__item--current a:focus, .figh__not-ios #fig-header .figh__container a:hover, #fig-header .figh__container a:focus, .figh__not-ios #fig-header .figh-nav__container a:hover, #fig-footer .figh-footer__link:hover { color: #99ceca; } #fig-header .figh-menu-item { color: #ffffff; } .figh__not-ios #fig-header .figh-menu-item:hover, .figh__not-ios #fig-header .figh-menu-item:focus { color:#99ceca } #fig-header .burger i, #fig-header .burger::before, #fig-header .burger::after { border-top: 1px solid #ffffff !important; } .figh__not-ios #fig-header .figh-menu-item--nav:hover .burger i, .figh__not-ios #fig-header .figh-menu-item--nav:hover .burger::before, .figh__not-ios #fig-header .figh-menu-item--nav:hover .burger::after { border-color: #99ceca !important; } .figh__not-ios #fig-header .figh-keyword__link--more:hover, #fig-header .figh-keyword__link--more:focus { border-color: #99ceca; } #fig-header .figh-menu-item--nav, #fig-header .figh-collapse__nav-btn { background-color: #00857b; } #fig-header .figh-keyword__link--highlighted { background-color: #ffffff; color: #00857b; } .figh__not-ios #fig-header.figh .figh-keyword__link--highlighted:hover { color: #ffffff; } #fig-header .figh-menu-item__container, #fig-header .figh-keyword__item--current a, #fig-header .figh-keyword__item { border-color: #aee6e1; } #fig-header .figh-search__btn, #fig-header button.figh-search__btn, #fig-header .figh-sign-in__btn { background-color: #00857b; color: #ffffff; } #fig-footer .figh-footer__item { border-left-color: #aee6e1; } #fig-header .figh-treenode__item--root-node::before { background-color: #00857b; } #fig-header .figh-treenode__item--root-node > .figh-treenode__item-wrapper { background-color: #00857b !important; }</style><header class="figh figh--loading" id="fig-header"><div class="figh__container"><div class="figh-nielsen"><ul class="figh-nielsen__list"><li class="figh-nielsen__item"><a aria-label="Aller sur lefigaro.fr (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr" rel="noopener" target="_blank" title="lefigaro.fr (nouvelle fen&ecirc;tre)"><i class="figh-icon-nielsen-home figh-nielsen__home"></i> </a> </li> <li class="figh-nielsen__item" data-id="152098"><a aria-label="Actu (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/" rel="noopener" target="_blank" title="Actu (nouvelle fen&ecirc;tre)">Actu</a> </li> <li class="figh-nielsen__item" data-id="152126"><a href="http://www.lefigaro.fr/politique/le-scan">Le Scan Politique</a> </li> <li class="figh-nielsen__item" data-id="152129"><a href="http://www.lefigaro.fr/international/">International</a> </li> <li class="figh-nielsen__item" data-id="152099"><a aria-label="Economie (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/economie" rel="noopener" target="_blank" title="Economie (nouvelle fen&ecirc;tre)">Economie</a> </li> <li class="figh-nielsen__item" data-id="152109"><a aria-label="Bourse (nouvelle fen&ecirc;tre)" href="http://bourse.lefigaro.fr/" rel="noopener" target="_blank" title="Bourse (nouvelle fen&ecirc;tre)">Bourse</a> </li> <li class="figh-nielsen__item" data-id="152130"><a aria-label="D&eacute;cideurs (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/decideurs/" rel="noopener" target="_blank" title="D&eacute;cideurs (nouvelle fen&ecirc;tre)">D&eacute;cideurs</a> </li> <li class="figh-nielsen__item" data-id="152131"><a aria-label="Le Scan Eco (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/economie/le-scan-eco/" rel="noopener" target="_blank" title="Le Scan Eco (nouvelle fen&ecirc;tre)">Le Scan Eco</a> </li> <li class="figh-nielsen__item" data-id="152100"><a aria-label="Sport24 (nouvelle fen&ecirc;tre)" href="https://www.lefigaro.fr/sports" rel="noopener" target="_blank" title="Sport24 (nouvelle fen&ecirc;tre)">Sport24</a> </li> <li class="figh-nielsen__item" data-id="152101"><a aria-label="Culture (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/culture" rel="noopener" target="_blank" title="Culture (nouvelle fen&ecirc;tre)">Culture</a> </li> <li class="figh-nielsen__item" data-id="152102"><a aria-label="Lifestyle (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/lifestyle/" rel="noopener" target="_blank" title="Lifestyle (nouvelle fen&ecirc;tre)">Lifestyle</a> </li> <li class="figh-nielsen__item" data-id="152103"><a aria-label="Madame (nouvelle fen&ecirc;tre)" href="http://madame.lefigaro.fr/" rel="noopener" target="_blank" title="Madame (nouvelle fen&ecirc;tre)">Madame</a> </li> <li class="figh-nielsen__item" data-id="152104"><a aria-label="Figaro Store (nouvelle fen&ecirc;tre)" href="http://boutique.lefigaro.fr?ga_source=bouton_store_nielsen" rel="noopener" target="_blank" title="Figaro Store (nouvelle fen&ecirc;tre)">Figaro Store</a> </li> <li class="figh-nielsen__item" data-id="152105"><a aria-label="Figaro Live (nouvelle fen&ecirc;tre)" href="http://video.lefigaro.fr/" rel="noopener" target="_blank" title="Figaro Live (nouvelle fen&ecirc;tre)">Figaro Live</a> </li> <li class="figh-nielsen__item" data-id="152107"><a aria-label="Etudiant (nouvelle fen&ecirc;tre)" href="http://etudiant.lefigaro.fr/" rel="noopener" target="_blank" title="Etudiant (nouvelle fen&ecirc;tre)">Etudiant</a> </li> <li class="figh-nielsen__item" data-id="152112"><a aria-label="TVMag (nouvelle fen&ecirc;tre)" href="http://tvmag.lefigaro.fr/" rel="noopener" target="_blank" title="TVMag (nouvelle fen&ecirc;tre)">TVMag</a> </li> <li class="figh-nielsen__item" data-id="152108"><a aria-label="Histoire (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/histoire/" rel="noopener" target="_blank" title="Histoire (nouvelle fen&ecirc;tre)">Histoire</a> </li> <li class="figh-nielsen__item" data-id="152128"><a aria-label="Immobilier (nouvelle fen&ecirc;tre)" href="http://immobilier.lefigaro.fr/" rel="noopener" target="_blank" title="Immobilier (nouvelle fen&ecirc;tre)">Immobilier</a> </li> <li class="figh-nielsen__item" data-id="152110"><a aria-label="Nautisme (nouvelle fen&ecirc;tre)" href="http://nautisme.lefigaro.fr/" rel="noopener" target="_blank" title="Nautisme (nouvelle fen&ecirc;tre)">Nautisme</a> </li> <li class="figh-nielsen__item" data-id="152111"><a aria-label="Golf (nouvelle fen&ecirc;tre)" href="http://golf.lefigaro.fr/" rel="noopener" target="_blank" title="Golf (nouvelle fen&ecirc;tre)">Golf</a> </li> <li class="figh-nielsen__item" data-id="152113"><a aria-label="Figaroscope (nouvelle fen&ecirc;tre)" href="http://evene.lefigaro.fr/" rel="noopener" target="_blank" title="Figaroscope (nouvelle fen&ecirc;tre)">Figaroscope</a> </li> <li class="figh-nielsen__item" data-id="152114"><a aria-label="Voyage (nouvelle fen&ecirc;tre)" href="http://voyage.lefigaro.fr/" rel="noopener" target="_blank" title="Voyage (nouvelle fen&ecirc;tre)">Voyage</a> </li> <li class="figh-nielsen__item" data-id="152115"><a aria-label="Ench&egrave;res (nouvelle fen&ecirc;tre)" href="http://encheres.lefigaro.fr/" rel="noopener" target="_blank" title="Ench&egrave;res (nouvelle fen&ecirc;tre)">Ench&egrave;res</a> </li> <li class="figh-nielsen__item" data-id="152116"><a aria-label="Vin (nouvelle fen&ecirc;tre)" href="http://avis-vin.lefigaro.fr/" rel="noopener" target="_blank" title="Vin (nouvelle fen&ecirc;tre)">Vin</a> </li> <li class="figh-nielsen__item" data-id="152127"><a aria-label="Jardin (nouvelle fen&ecirc;tre)" href="http://www.lefigaro.fr/jardin/" rel="noopener" target="_blank" title="Jardin (nouvelle fen&ecirc;tre)">Jardin</a> </li> <li class="figh-nielsen__item" data-id="152117"><a aria-label="M&eacute;t&eacute;o consult (nouvelle fen&ecirc;tre)" href="https://www.meteoconsult.fr/carte-meteo/pays-63/previsions-meteo-france-aujourdhui" rel="noopener" target="_blank" title="M&eacute;t&eacute;o consult (nouvelle fen&ecirc;tre)">M&eacute;t&eacute;o consult</a> </li> <li class="figh-nielsen__item" data-id="152125"><a aria-label="Annuaire sant&eacute; avec PagesJaunes (nouvelle fen&ecirc;tre)" href="http://annuaire.lefigaro.fr/" rel="noopener" target="_blank" title="Annuaire sant&eacute; avec PagesJaunes (nouvelle fen&ecirc;tre)">Annuaire sant&eacute; avec PagesJaunes</a> </li> <li class="figh-nielsen__item" data-id="152118"><a aria-label="Le particulier (nouvelle fen&ecirc;tre)" href="http://leparticulier.lefigaro.fr/" rel="noopener" target="_blank" title="Le particulier (nouvelle fen&ecirc;tre)">Le particulier</a> </li> <li class="figh-nielsen__item" data-id="152119"><a aria-label="Cadremploi (nouvelle fen&ecirc;tre)" href="http://www.cadremploi.fr/" rel="noopener" target="_blank" title="Cadremploi (nouvelle fen&ecirc;tre)">Cadremploi</a> </li> <li class="figh-nielsen__item" data-id="152120"><a aria-label="La chaine m&eacute;t&eacute;o (nouvelle fen&ecirc;tre)" href="https://www.lachainemeteo.com/meteo-france/previsions-meteo-france-aujourdhui" rel="noopener" target="_blank" title="La chaine m&eacute;t&eacute;o (nouvelle fen&ecirc;tre)">La chaine m&eacute;t&eacute;o</a> </li> <li class="figh-nielsen__item" data-id="152121"><a aria-label="Keljob (nouvelle fen&ecirc;tre)" href="http://www.keljob.com/" rel="noopener" target="_blank" title="Keljob (nouvelle fen&ecirc;tre)">Keljob</a> </li> <li class="figh-nielsen__item" data-id="152122"><a aria-label="Kelformation (nouvelle fen&ecirc;tre)" href="http://www.kelformation.com/" rel="noopener" target="_blank" title="Kelformation (nouvelle fen&ecirc;tre)">Kelformation</a> </li> <li class="figh-nielsen__item" data-id="152123"><a aria-label="Propri&eacute;t&eacute;s Le Figaro (nouvelle fen&ecirc;tre)" href="http://proprietes.lefigaro.fr/" rel="noopener" target="_blank" title="Propri&eacute;t&eacute;s Le Figaro (nouvelle fen&ecirc;tre)">Propri&eacute;t&eacute;s Le Figaro</a> </li> <li class="figh-nielsen__item" data-id="152124"><a aria-label="Ticketac (nouvelle fen&ecirc;tre)" href="http://www.ticketac.com/" rel="noopener" target="_blank" title="Ticketac (nouvelle fen&ecirc;tre)">Ticketac</a> </li> <li class="figh-nielsen__item" data-id="152132"><a aria-label="R&eacute;sultats &eacute;lection (nouvelle fen&ecirc;tre)" href="https://www.lefigaro.fr/elections/resultats/" rel="noopener" target="_blank" title="R&eacute;sultats &eacute;lection (nouvelle fen&ecirc;tre)">R&eacute;sultats &eacute;lection</a> </li></ul> <div class="figh-nielsen__scroll"><div class="figh-nielsen__scroll-container"><i aria-label="D&eacute;filer vers la gauche" class="figh-icon-nielsen-left figh-nielsen__button--left js-fig-nielsen__button--inactive js-nielsen-bar-btn js-nielsen-bar-btn-left"></i> <i aria-label="D&eacute;filer vers la droite" class="figh-icon-nielsen-right figh-nielsen__button--active figh-nielsen__button--right js-fig-nielsen__button--active js-nielsen-bar-btn-right"></i></div> </div></div> <div aria-hidden="true" class="figh-social figh-social--collapsed js-figh-panel js-reader-collapsed" id="social-block"><div class="figh-social__container js-figh-social__container"><ul class="figh-social__list js-figh-social__list"><li class="figh-social__item js-figh-social__item" data-id="17657"><a aria-label="Facebook (nouvelle fen&ecirc;tre)" href="https://www.facebook.com/pages/Figaro-sant%C3%A9/156004334489884" rel="noopener" target="_blank" title="Facebook (nouvelle fen&ecirc;tre)"><i aria-hidden="true" class="figh-icon-facebook figh-social__link-icon" style="background-color: #3b5998;"></i>Facebook</a> </li> <li class="figh-social__item js-figh-social__item" data-id="17658"><a aria-label="Twitter (nouvelle fen&ecirc;tre)" href="https://twitter.com/LeFigaro_Sante" rel="noopener" target="_blank" title="Twitter (nouvelle fen&ecirc;tre)"><i aria-hidden="true" class="figh-icon-twitter figh-social__link-icon" style="background-color: #55acee;"></i>Twitter</a> </li> <li class="figh-social__item js-figh-social__item" data-id="17659"><a aria-label="Newsletter (nouvelle fen&ecirc;tre)" href="http://sante.lefigaro.fr/e-newsletter/inscription" rel="noopener" target="_blank" title="Newsletter (nouvelle fen&ecirc;tre)"><i aria-hidden="true" class="figh-icon-envelope figh-social__link-icon" style="background-color: orange;"></i>Newsletter</a> </li></ul> <div class="figh-social__scroll js-figh-social__scroll"><div class="figh-social__scroll-container"><i aria-label="D&eacute;filer vers la gauche" class="figh-icon-nielsen-left figh-social__button--left js-fig-social__button--inactive js-social-bar-btn js-social-bar-btn-left"></i> <i aria-label="D&eacute;filer vers la droite" class="figh-icon-nielsen-right figh-social__button--active figh-social__button--right js-fig-social__button--active js-social-bar-btn js-social-bar-btn-right"></i></div> </div></div> </div> <div aria-hidden="true" class="figh-search js-figh-search-block"><form action="https://recherche.lefigaro.fr/recherche/{{value}}/?publication=sante.lefigaro.fr" class="figh-search__container js-figh-search__container" method="GET" role="search"><input class="figh-search__input js-figh-search__input" name="value" placeholder="Recherchez parmi les actualit&eacute;s du Figaro Sant&eacute;" title="Recherchez parmi les actualit&eacute;s du Figaro Sant&eacute;" type="text"> <button class="figh-search__btn js-figh-search__btn">Rechercher</button></form> </div> <div class="figh__full full"><div class="figh-menu figh__left-side"><button class="figh-menu-item figh-menu-item--dark figh-menu-item--nav js-figh-btn-nav js-figh-open-close-nav" data-selected="false" title="Voir les rubriques"><span class="figh-menu-item__container figh-menu-item__container--no-border"><span aria-hidden="true" class="burger"><i></i> </span> <br>Menu</span> </button> </div> <div class="figh-menu figh__right-side"><button class="figh-menu-item js-figh-menu-item__social"><i aria-hidden="true" class="figh-icon-angle-up"></i> <span class="figh-menu-item__container figh-menu-item__container--no-border"><i aria-hidden="true" class="figh-icon--big figh-icon-suivre"></i><br>Suivre</span></button> <button class="figh-menu-item js-figh-search"><i aria-hidden="true" class="figh-icon-angle-up"></i> <span class="figh-menu-item__container"><i aria-hidden="true" class="figh-icon--big figh-icon-recherche"></i><br>Recherche</span></button> <a class="agora-sso-link figh-connexion figh-connexion--connecting figh-menu-item js-figh-signin" href="https://connect.lefigaro.fr/login?client=annuaire_sante_web&amp;redirect_uri=__url__"><i aria-hidden="true" class="figh-icon-angle-up"></i> <span class="figh-menu-item__container"><i aria-hidden="true" class="figh-icon--big figh-icon-connexion"></i></span></a></div> <div class="figh__middle-side middle_side"><div class="figh-logo"><a href="http://sante.lefigaro.fr/"><img alt="Sant&eacute;" class="figh-logo__desktop" src="https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/sante-desktop.png"> <img alt="Sant&eacute;" class="figh-logo__tablette" src="https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/sante-tablette.png"> <img alt="Sant&eacute;" class="figh-logo__mobile" src="https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/sante-mobile.png"></a> </div> <div class="figh-keyword"><ul class="figh-keyword__list"><li class="figh-keyword__item" data-id="29600"><a class="figh-keyword__link" href="http://sante.lefigaro.fr/ "> Actualit&eacute; </a> </li> <li class="figh-keyword__item" data-id="29601"><a class="figh-keyword__link" href="http://sante.lefigaro.fr/maladie"> L&rsquo;encyclop&eacute;die sant&eacute; </a> </li> <li class="figh-keyword__item" data-id="29599"><a class="figh-keyword__link" href="http://sante.lefigaro.fr/mieux-etre/sports"> Mieux-&ecirc;tre </a> </li> <li class="figh-keyword__item" data-id="29602"><a class="figh-keyword__link" href="http://sante.lefigaro.fr/mieux-etre/voyages-pays"> Pr&eacute;parer un voyage </a> </li> <li class="figh-keyword__item" data-id="29603"><a class="figh-keyword__link" href="http://sante.lefigaro.fr/social/sante-publique"> Questions sociales </a> </li> <li class="figh-keyword__item" data-id="29604"><a class="figh-keyword__link figh-keyword__link--highlighted" href="http://annuaire.lefigaro.fr/"> Annuaire sant&eacute; avec PagesJaunes </a> </li> <li class="figh-keyword__item" data-id="29605"><a class="figh-keyword__link" href="http://sante.lefigaro.fr/medicaments/"> M&eacute;dicaments </a> </li></ul> <a class="figh-keyword__link figh-keyword__link--more js-figh-open-close-nav" title="Afficher le menu"><i aria-hidden="true" class="figh-icon-custom-plus"></i> </a></div> <script>function onClickScript(index) { switch(index) { default: break; } }</script></div></div></div> <div class="collapsed_content"><button class="btn figh-collapse__nav-btn js-figh-open-close-nav"><i aria-hidden="true" class="burger"><i></i></i><span>Menu</span> </button> <div class="figh-collapse__logo"><a href="http://sante.lefigaro.fr/"><img alt="Sant&eacute;" class="figh-logo--collapse" src="https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/sante-collapse.svg"> </a> </div></div> <div class="figh-left-panel" id="left-panel"><div class="figh-mobile-menu figh-mobile-menu--collapsed js-figh-mobile-menu mobile-only"><a class="figh-mobile-menu__item js-figh-mobileburger"><span class="figh-mobile-menu__item-container"><i class="burger"><i></i></i><br>Menu</span> </a> <a aria-label="Connexion/D&eacute;connexion" class="agora-sso-link figh-connexion figh-connexion--connecting figh-mobile-menu__item" href="https://connect.lefigaro.fr/login?client=annuaire_sante_web&amp;redirect_uri=__url__"><span aria-label="Connexion" class="figh-menu-item__container--no-border figh-mobile-menu__item-container"><i aria-hidden="true" class="figh-icon--big figh-icon-connexion"></i> </span> </a></div> <div class="figh-nav js-nav-collapsed" data-expanded="false" data-id="1" data-level="0" id="left_menu"><div class="figh-mobile-search mobile-only"><form action="https://recherche.lefigaro.fr/recherche/{{value}}/?publication=sante.lefigaro.fr" class="figh-search__container js-figh-search__container" method="GET" role="search"><input class="figh-search__input js-figh-search__input--mobile" name="value" placeholder="Recherchez parmi les actualit&eacute;s du Figaro Sant&eacute;" title="Recherchez parmi les actualit&eacute;s du Figaro Sant&eacute;" type="text"> null <button aria-label="Rechercher" class="figh-search__btn js-figh-search__btn"><i aria-hidden="true" class="figh-icon-search"></i> </button> </form> </div> <nav class="figh-treenode js-figh-treenode-container"><ul class="figh-treenode__level figh-treenode__level--0"><li class="figh-treenode__item" data-id="2"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--bold figh-treenode__link--upper" href="http://www.lefigaro.fr/" title="Actualit&eacute;">Actualit&eacute;</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander figh-treenode__expander--open"></span></div> <ul class="figh-treenode__level figh-treenode__level--1"><li class="figh-treenode__item" data-id="1473"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://premium.lefigaro.fr" title="Le Figaro Premium">Le Figaro Premium</a> </div> </li> <li class="figh-treenode__item figh-treenode__item--hide-premium" data-id="1400"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link figh-treenode__link--ad" href="https://boutique.lefigaro.fr/abonnement/premium/rappel-1e1ma?origine=VWH16004&amp;ga_source=VWH16004_lien_premium_burger_haut" rel="noopener" target="_blank" title="Abonnez-vous (nouvelle fen&ecirc;tre)"><span class="figh-icon-ad" style="background-color:#d6a461"></span> Abonnez-vous</a> </div> </li> <li class="figh-treenode__item" data-id="4"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/international/" title="International">International</a> </div> </li> <li class="figh-treenode__item" data-id="1911"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/elections/europeennes" title="Elections europ&eacute;ennes">Elections europ&eacute;ennes</a> </div> </li> <li class="figh-treenode__item" data-id="5"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://www.lefigaro.fr/politique/" title="Politique">Politique</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="6"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://www.lefigaro.fr/politique/le-scan/" title="Le Scan Politique">Le Scan Politique</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="19"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/actualite-france/" title="Soci&eacute;t&eacute;">Soci&eacute;t&eacute;</a> </div> </li> <li class="figh-treenode__item" data-id="533"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://www.lefigaro.fr/vox/" title="Figaro Vox">Figaro Vox</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="514"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="https://etudiant.lefigaro.fr" title="Figaro Etudiant">Figaro Etudiant</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="21"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/sciences/" title="Sciences &amp; Environnement">Sciences &amp; Environnement</a> </div> </li> <li class="figh-treenode__item" data-id="20"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://www.lefigaro.fr/secteur/high-tech/" title="Tech &amp; Web">Tech &amp; Web</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="95"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/lefigaromagazine/" title="Figaro Magazine">Figaro Magazine</a> </div> </li> <li class="figh-treenode__item figh-treenode__item--root-node" data-id="513"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child figh-treenode__item-wrapper--root-node js-arrow-event"><a class="figh-treenode__link figh-treenode__link--bold figh-treenode__link--root-node" href="http://sante.lefigaro.fr" title="Figaro Sant&eacute;">Figaro Sant&eacute;</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander figh-treenode__expander--open figh-treenode__expander--root-node"></span></div> <ul class="figh-treenode__level figh-treenode__level--2"><li class="figh-treenode__item" data-id="1655"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/" title="Actualit&eacute; Sant&eacute;">Actualit&eacute; Sant&eacute;</a> </div> </li> <li class="figh-treenode__item" data-id="1656"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/mieux-etre" title="Forme et bien &ecirc;tre">Forme et bien &ecirc;tre</a> </div> </li> <li class="figh-treenode__item" data-id="1657"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/social/enfance-famille" title="Famille">Famille</a> </div> </li> <li class="figh-treenode__item" data-id="1658"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/medecine" title="M&eacute;decine">M&eacute;decine</a> </div> </li> <li class="figh-treenode__item" data-id="1659"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/mieux-etre/nutrition-aliments" title="Nutrition">Nutrition</a> </div> </li> <li class="figh-treenode__item" data-id="1660"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/psychologie" title="Psychologie">Psychologie</a> </div> </li> <li class="figh-treenode__item" data-id="1661"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/mieux-etre/sexualite" title="Sexualit&eacute;">Sexualit&eacute;</a> </div> </li> <li class="figh-treenode__item" data-id="1662"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/social/sante-publique" title="Sant&eacute; publique">Sant&eacute; publique</a> </div> </li> <li class="figh-treenode__item" data-id="1518"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/medicaments/" title="M&eacute;dicaments">M&eacute;dicaments</a> </div> </li> <li class="figh-treenode__item" data-id="1693"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/dossier/dormir-sans-reposer-comment-soigner-le-syndrome-d-apnees-du-sommeil" rel="noopener" target="_blank" title="Apn&eacute;e du sommeil (nouvelle fen&ecirc;tre)">Apn&eacute;e du sommeil</a> </div> </li> <li class="figh-treenode__item" data-id="566"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/sante/organe" title="L&#039;encyclop&eacute;die sant&eacute;">L&#039;encyclop&eacute;die sant&eacute;</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="567"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/mieux-etre/sports" title="Mieux-&ecirc;tre">Mieux-&ecirc;tre</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="568"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://sante.lefigaro.fr/social/sante-publique" title="Social">Social</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li></ul></li> <li class="figh-treenode__item" data-id="540"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link" href="http://video.lefigaro.fr" title="Figaro Live / vid&eacute;os">Figaro Live / vid&eacute;os</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="1905"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/dossier/les-podcasts-du-figaro-politique-television-culture-societe-science-sante" title="Les podcasts du Figaro">Les podcasts du Figaro</a> </div> </li> <li class="figh-treenode__item" data-id="1158"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/blogs/" title="Blogs">Blogs</a> </div> </li> <li class="figh-treenode__item" data-id="1161"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/photos/" title="Diaporamas">Diaporamas</a> </div> </li> <li class="figh-treenode__item" data-id="1160"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/dossier/fig-data-infographies-datavisualisation" title="Data &amp; infographies">Data &amp; infographies</a> </div> </li> <li class="figh-treenode__item" data-id="1224"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link" href="http://www.lefigaro.fr/actualites-a-la-une/" title="Toute l&#039;actu">Toute l&#039;actu</a> </div> </li> <li class="figh-treenode__item figh-treenode__item--hide-premium" data-id="1928"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link figh-treenode__link--ad" href="https://bien-au-travail.lefigaro.fr/?utm_source=figaro&amp;utm_medium=menu-burger&amp;utm_campaign=harmonie-mutuelle2019" rel="noopener" target="_blank" title="Bien au travail ? (nouvelle fen&ecirc;tre)"><span class="figh-icon-ad" style="background-color:#3d7acc"></span> Bien au travail ?</a> </div> </li></ul></li> <li class="figh-treenode__item" data-id="96"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/economie/" title="Economie">Economie</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="157"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="https://www.lefigaro.fr/sports/" title="Sport">Sport</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="252"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/culture/" title="Culture">Culture</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="1918"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="https://www.lefigaro.fr/style" title="Style">Style</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="357"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/voyages" title="Voyage">Voyage</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="354"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/lifestyle/" title="Art de vivre">Art de vivre</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="417"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://madame.lefigaro.fr/" title="Madame">Madame</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="464"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/mon-figaro" title="Le Figaro Premium">Le Figaro Premium</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="465"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/services/" title="Services">Services</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="472"><div class="figh-treenode__item-wrapper figh-treenode__item-wrapper--has-child js-arrow-event"><a class="figh-treenode__link figh-treenode__link--upper" href="http://www.lefigaro.fr/" title="Tous les sites du Figaro">Tous les sites du Figaro</a> <span aria-label="D&eacute;plier/replier" class="figh-icon-angle-up figh-treenode__expander"></span></div> </li> <li class="figh-treenode__item" data-id="1967"><div class="figh-treenode__item-wrapper"><a class="figh-treenode__link figh-treenode__link--upper" href="https://rofe.etudiant.lefigaro.fr/" rel="noopener" target="_blank" title="Rencontres orientation@home (nouvelle fen&ecirc;tre)">Rencontres orientation@home</a> </div> </li></ul> </nav></div> <div class="figh-sign-in js-figh-signin-block mobile-only" id="signin-block"><div class="figh-sign-in__container"></div> </div></div> <div class="figh-logged figh-logged--collapsed figh-right-panel" id="right-panel"><div class="figh-logged__container"><ul class="figh-logged__list figh-logged__list--bold figh-user-menu-liste1"></ul> <ul class="figh-logged__list figh-user-menu-liste2"></ul> <ul class="figh-logged__list figh-user-menu-liste3"></ul> <ul class="figh-logged__list figh-user-menu-liste4"></ul></div> </div> <div class="header-placeholder"></div></header><link href="https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/jquery.ultimate-smartbanner.css" rel="stylesheet"><script id="fig-header-script"> var headerRootNodeId = '513';var headerId = '37';var treeNodeCacheKiller = '6e664';var headerLogoNoSvg = 'https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/sante-fallback.png';var treenode_html_url = 'https://static.lefigaro.fr/a.f1g.fr/h/assets-components/header-footer/header-treenode.js';var headerGaVarName = false;var injectNewMeta = function(name, content) {var eHead = document.getElementsByTagName('head')[0];if (!eHead) return;var eMeta = document.createElement('meta');eMeta.setAttribute('name', name);eMeta.setAttribute('content', content);eHead.appendChild(eMeta);return;};injectNewMeta('apple\u002Ditunes\u002Dapp',"app-id=319557427");injectNewMeta('apple\u002Ditunes\u002Dapp\u002Dtracking',"https\u003A\/\/app.adjust.com\/i1y8nw");injectNewMeta('apple\u002Ditunes\u002Dapp\u002Dtab',"app-id=366972214");injectNewMeta('apple\u002Ditunes\u002Dapp\u002Dtab\u002Dtracking',"https\u003A\/\/app.adjust.com\/i1y8nw");injectNewMeta('google\u002Dplay\u002Dapp',"app-id=fr.playsoft.lefigarov3");injectNewMeta('google\u002Dplay\u002Dapp\u002Dtracking',"https\u003A\/\/play.google.com\/store\/apps\/details\u003Fid\u003Dfr.playsoft.lefigarov3\u0026hl\u003Dfr");injectNewMeta('google\u002Dplay\u002Dapp\u002Dtab',"app-id=fr.playsoft.lefigarov3");injectNewMeta('google\u002Dplay\u002Dapp\u002Dtab\u002Dtracking',"https\u003A\/\/play.google.com\/store\/apps\/details\u003Fid\u003Dfr.playsoft.lefigarov3\u0026hl\u003Dfr");var options = {"title": "Le Figaro", "author": "Soci\u00E9t\u00E9\u0020du\u0020Figaro", "price": "GRATUIT", "priceText": "", "icon": "https://static.lefigaro.fr/a.f1g.fr/assets-img/favicons/apple-touch-icon-144x144.png", "button": " T\u00E9l\u00E9charger", "appStoreLanguage": "fr", "iphoneConfig": {"title":"Suivre\u0020l\u2019actu\u0020est\u0020encore\u0020plus\u0020facile\u0020sur\u0020l\u2019application\u0020du\u0020Figaro\u0020\u003A\u0020faites\u0020l\u2019exp\u00E9rience","author":"Soci\u00E9t\u00E9\u0020du\u0020Figaro","price":"Gratuit","icon":"https\u003A\/\/a4.mzstatic.com\/eu\/r30\/Purple3\/v4\/52\/c3\/53\/52c353f0\u002D3a5b\u002D76a9\u002Dfcf7\u002D01184d5f811a\/icon350x350.png"},"ipadConfig": {"title":"Suivre\u0020l\u2019actu\u0020est\u0020encore\u0020plus\u0020facile\u0020sur\u0020l\u2019application\u0020du\u0020Figaro\u0020\u003A\u0020faites\u0020l\u2019exp\u00E9rience","author":"Soci\u00E9t\u00E9\u0020du\u0020Figaro","price":"Gratuit","icon":"https\u003A\/\/a4.mzstatic.com\/eu\/r30\/Purple3\/v4\/52\/c3\/53\/52c353f0\u002D3a5b\u002D76a9\u002Dfcf7\u002D01184d5f811a\/icon350x350.png"},"androidConfig": {"title":"Suivre\u0020l\u2019actu\u0020est\u0020encore\u0020plus\u0020facile\u0020sur\u0020l\u2019application\u0020du\u0020Figaro\u0020\u003A\u0020faites\u0020l\u2019exp\u00E9rience","author":"Soci\u00E9t\u00E9\u0020du\u0020Figaro","price":"Gratuit","icon":"https\u003A\/\/a4.mzstatic.com\/eu\/r30\/Purple3\/v4\/52\/c3\/53\/52c353f0\u002D3a5b\u002D76a9\u002Dfcf7\u002D01184d5f811a\/icon350x350.png"},"androidTabsConfig": {"title":"Suivre\u0020l\u2019actu\u0020est\u0020encore\u0020plus\u0020facile\u0020sur\u0020l\u2019application\u0020du\u0020Figaro\u0020\u003A\u0020faites\u0020l\u2019exp\u00E9rience","author":"Soci\u00E9t\u00E9\u0020du\u0020Figaro","price":"Gratuit","icon":"https\u003A\/\/a4.mzstatic.com\/eu\/r30\/Purple3\/v4\/52\/c3\/53\/52c353f0\u002D3a5b\u002D76a9\u002Dfcf7\u002D01184d5f811a\/icon350x350.png"},"windowsPhoneConfig": {"title":"Voulez\u002Dvous\u0020installer\u0020l\u0027application\u0020\u0022Le\u0020Figaro\u0022\u0020\u003F","author":"Soci\u00E9t\u00E9\u0020du\u0020Figaro","price":"GRATUIT","icon":"https\u003A\/\/static.lefigaro.fr\/a.f1g.fr\/assets\u002Dimg\/favicons\/apple\u002Dtouch\u002Dicon\u002D144x144.png"},"windowsRtConfig": {"title":"Voulez\u002Dvous\u0020installer\u0020l\u0027application\u0020\u0022Le\u0020Figaro\u0022\u0020\u003F","author":"Soci\u00E9t\u00E9\u0020du\u0020Figaro","price":"GRATUIT","icon":"https\u003A\/\/static.lefigaro.fr\/a.f1g.fr\/assets\u002Dimg\/favicons\/apple\u002Dtouch\u002Dicon\u002D144x144.png"}};window.loadSmartbanner = true;</script>
+</div>                                    <main id="main" role="main" class="wrapper">
+        <nav class="breadcrumb_container" role="navigation" aria-label="Fil d'ariane">
+    <span class="screen_reader">Vous êtes ici :</span>
+    <ul class="breadcrumbs">
+        <li>
+            <span class="adp-icon adp-icon--chevron-gauche"></span>
+            <a href="/">Le Figaro Santé</a> |
+        </li>
+                            <li>
+                                    <a href="/annuaire/region/champagne-ardenne/addictions"> Addictions en Champagne ardenne</a>
+                                |            </li>
+                    <li>
+                                    Centre Hospitalier Chaumont
+                                            </li>
+            </ul>
+</nav>        <!-- pictures -->
+<div class="gallery_bloc" data-srcs="https://www.pagesjaunes.fr/media/agc/2e/c6/95/00/00/6b/43/78/0f/ae/61002ec69500006b43780fae/61002ec69500006b43780faf.jpg;https://www.pagesjaunes.fr/media/agc/fb/b9/73/00/00/40/f2/38/f4/c3/5f9bfbb973000040f238f4c3/5f9bfbb973000040f238f4c4.png;https://www.pagesjaunes.fr/media/agc/fb/b8/4d/00/00/43/c5/1c/67/35/5f9bfbb84d000043c51c6735/5f9bfbb84d000043c51c6736.png"><ul class="gallery_list with_3_items"><li class="gallery_item"><a data-index="0" href="https://www.pagesjaunes.fr/media/agc/2e/c6/95/00/00/6b/43/78/0f/ae/61002ec69500006b43780fae/61002ec69500006b43780faf.jpg" class="gallery_item_link"><img src="https://www.pagesjaunes.fr/media/agc/2e/c6/95/00/00/6b/43/78/0f/ae/61002ec69500006b43780fae/61002ec69500006b43780faf.jpg?w=320" alt="Photo d&#039;illustration 1 sur 3"></a></li><li class="gallery_item"><a data-index="1" href="https://www.pagesjaunes.fr/media/agc/fb/b9/73/00/00/40/f2/38/f4/c3/5f9bfbb973000040f238f4c3/5f9bfbb973000040f238f4c4.png" class="gallery_item_link"><img src="https://www.pagesjaunes.fr/media/agc/fb/b9/73/00/00/40/f2/38/f4/c3/5f9bfbb973000040f238f4c3/5f9bfbb973000040f238f4c4.png?w=320" alt="Photo d&#039;illustration 2 sur 3"></a></li><li class="gallery_item"><a data-index="2" href="https://www.pagesjaunes.fr/media/agc/fb/b8/4d/00/00/43/c5/1c/67/35/5f9bfbb84d000043c51c6735/5f9bfbb84d000043c51c6736.png" class="gallery_item_link"><img src="https://www.pagesjaunes.fr/media/agc/fb/b8/4d/00/00/43/c5/1c/67/35/5f9bfbb84d000043c51c6735/5f9bfbb84d000043c51c6736.png?w=320" alt="Photo d&#039;illustration 3 sur 3"></a></li><li class="gallery_item_button"><a href="#" class="txt_sm gallery_action">
+                        Voir toutes les photos
+                    </a></li></ul></div><script>
+    $( document ).ready( 
+        function()
+        {
+            adpgallerysrcs = $('.gallery_bloc').data('srcs').split(';');
+            adpgallerycurrentsrc = 0;
+            $('.adp-modal-image-displayer .adp-icon--fermer').on('click', 
+                function(e) {
+                    e.preventDefault();
+                    $('body').removeClass('adp-modal-image-shown');
+                }
+            );
+
+            $('.adp-modal-image-action_prev').on('click', 
+                function(e)
+                {
+                    adpgallerycurrentsrc--;
+                    if(adpgallerycurrentsrc < 0)
+                    { adpgallerycurrentsrc = adpgallerysrcs.length -1 }
+                    $(".adp-modal-image-frame").css("background-image","url('"+adpgallerysrcs[adpgallerycurrentsrc]+"')");
+                }
+            );            
+            $('.adp-modal-image-action_next').on('click', 
+                function(e)
+                {
+                    adpgallerycurrentsrc++;
+                    if(adpgallerycurrentsrc >= adpgallerysrcs.length)
+                    { adpgallerycurrentsrc = 0 }
+                    $(".adp-modal-image-frame").css("background-image","url('"+adpgallerysrcs[adpgallerycurrentsrc]+"')");
+                }
+            );            
+
+            $('.gallery_item_link[href], .gallery_action').on('click', 
+                function(e)
+                {
+                    e.preventDefault();
+                    $('body').addClass('adp-modal-image-shown');
+                    if(undefined !== $(this).data('index')) { adpgallerycurrentsrc = $(this).data('index') }
+                    $(".adp-modal-image-frame").css("background-image","url('"+adpgallerysrcs[adpgallerycurrentsrc]+"')");
+                }
+            );
+        }
+    );
+</script>
+<!-- /pictures -->        <section class="fd_bloc">
+    <div class="teaser_bloc with_logo">
+                    <figure class="teaser_picture">
+                <img src="https://www.pagesjaunes.fr/media/agc/2e/c6/95/00/00/6b/43/78/0f/ac/61002ec69500006b43780fac/61002ec69500006b43780fad.png" alt="Logo Centre Hospitalier Chaumont" width="120" height="120"/>
+            </figure>
+                <h1 class="h2">Centre Hospitalier Chaumont</h1>
+                    <p class="teaser_category">
+                                                        <span>Hôpital</span>
+                                    ,                     <span>Maternité</span>
+                            </p>
+                                    <p class="teaser_opening opening bold txt_sm">Ouvert</p>
+            </div>
+</section>
+
+        <div class="fd_column_container">
+            <div class="fd_column_left">
+                <section class="fd_bloc adpts_informations-pro">
+                    <div class="fd_cta">
+            <span id="tel_1" class="button primary"
+              onclick="atinternetClick('afficher_numero', 'figarosante', 'FD_SEO');
+                      return decodeNumberTel('tel_1', 'MDMgMjUgMzAgNzAgMzA=', 'figarosante', 'FD_SEO');"
+              data-pjstats='{"idRequete":"74647d-dlvw2_603114663331754494","genreBloc":"1","idTag":"TELEPHONE","pos":"1"}'>
+            <i class="adp-icon adp-icon--telephone"></i>
+            <a href="javascript:void(0)">
+                Afficher le n°
+            </a>
+        </span>
+                
+            <a href="https://stat.pagesjaunes.fr/redirect?target=PrytgNz4yu8wXqh5jfIrGhkCCT-UNV6TEYoM1Y6YVpfSXGTfdYl3oW04LqjP2bZb87X8t2-eCF2mFI9QL-0NpmwdHSL2P0K1JEyltFNIsTQup9t1XwIXjrHmZhA0lKcZl5rF7x3JLWtAS1I84qozGOvrecNmfbsHmfoJzXSfmZLzDGgsSW5q8yb8Xf1NE7FUAWqwhUOn8HiVYXzZr5MflrTS4zuiPMMZ&amp;v=2.0&amp;p1=1&amp;p2=0&amp;p3=ITI&amp;p4=&amp;p5=FD&amp;p6=74647d-dlvw2_603114663331754494&amp;p7=03762015&amp;p8=" class="button tertiary js-redirect"
+               onclick="atinternetClick('y_aller', 'figarosante', 'FD_SEO');">
+            <i class="adp-icon adp-icon--fleche"></i>
+            Y aller
+        </a>
+    </div>
+                                                                        <span id="tel_mobile" class="button primary cta_mobile"
+                 onclick="atinternetClick('afficher_numero', 'figarosante', 'FD_SEO');
+                     return decodeNumberTel('tel_mobile', 'MDMgMjUgMzAgNzAgMzA=', 'figarosante', 'FD_SEO');"
+                 data-pjstats='{"idRequete":"74647d-dlvw2_603114663331754494","genreBloc":"1","idTag":"TELEPHONE","pos":"1"}'>
+                <i class="adp-icon adp-icon--telephone"></i>
+                <a href="javascript:void(0)">
+                    Afficher le n°
+                </a>
+            </span>
+            <span class="button primary cta_mobile ab_test">
+                <a href="tel:+333 25 30 70 30" class="ab_test" onclick="atinternetClick('appeler', 'figarosante', 'FD_SEO');return ab_test_call(this)" data-pjstats='{"idRequete":"74647d-dlvw2_603114663331754494","genreBloc":"1","idTag":"TELEPHONE","pos":"1"}'>
+                    03 25 30 70 30
+                </a>
+            </span>
+                                <input type="hidden" id="adressFD" value="2 r Jeanne d&#039;Arc 52000 Chaumont">
+<p class="list-contact adpts_infos-adresse">
+            <span tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly9zdGF0LnBhZ2VzamF1bmVzLmZyL3JlZGlyZWN0P3RhcmdldD1Qcnl0Z056NHl1OHdYcWg1amZJckdoa0NDVC1VTlY2VEVZb00xWTZZVnBmU1hHVGZkWWwzb1cwNExxalAyYlpiODdYOHQyLWVDRjJtRkk5UUwtME5wbXdkSFNMMlAwSzFKRXlsdEZOSXNUUXVwOXQxWHdJWGpySG1aaEEwbEtjWmw1ckY3eDNKTFd0QVMxSTg0cW96R092cmVjTm1mYnNIbWZvSnpYU2ZtWkx6REdnc1NXNXE4eWI4WGYxTkU3RlVBV3F3aFVPbjhIaVZZWHpacjVNZmxyVFM0enVpUE1NWiZ2PTIuMCZwMT0xJnAyPTAmcDM9SVRJJnA0PSZwNT1GRCZwNj03NDY0N2QtZGx2dzJfNjAzMTE0NjYzMzMxNzU0NDk0JnA3PTAzNzYyMDE1JnA4PQ==">
+            <span class="adp-icon adp-icon--poi"></span>
+            <span class="adress_label">2 r Jeanne d&#039;Arc 52000 Chaumont</span>
+        </span>
+    </p>
+        <ul class="list-contact adpts_infos-websites">
+                    <li class="website">
+                                                                                                                                                        <span tabindex="0" class="adpJam adpJam_isXtn adpJam_noPJ adpJam_tgt_aHR0cHM6Ly9zdGF0LnBhZ2VzamF1bmVzLmZyL3JlZGlyZWN0P3RhcmdldD1Qcnl0Z056NHl1LUtpc0xIOUpCSElBdFA0SHFCQWZ4TWZLQ3V0RVZGUzNMSGxOOFJWV1lGZ1E9PSZ2PTIuMCZwMT0xJnAyPTAmcDM9U0lURV9FWFRFUk5FJnA0PVNJVEUtR1JBVFVJVCZwNT1GRCZwNj03NDY0N2QtZGx2dzJfNjAzMTE0NjYzMzMxNzU0NDk0JnA3PTAzNzYyMDE1JnA4PQ=="
+                   onclick="atinternetClick('lien_site', 'figarosante', 'FD_SEO');">
+                    <span class="adp-icon adp-icon--lien"></span>
+                    <span class="website_label">www.ch-chaumont.fr</span>
+                </span>
+                            </li>
+            </ul>
+
+                        <input id="schedules_open" type="checkbox" name="schedules_open" hidden/>
+    <label tabindex="0" for="schedules_open" class="list-contact open">
+                    <span class="adp-icon adp-icon--clock"></span>
+            <span class="opening">Ouvert du lundi au dimanche 24h/24 </span>
+            <span class="adp-icon adp-icon--chevron-bas"></span>
+            </label>
+                                                                            <div class="schedules_container">
+        <h2 class="h4">Horaires d'ouverture</h2>
+            <div class="schedules_bloc">
+                                    <dl>
+                                    <dt>Lundi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Mardi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Mercredi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Jeudi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Vendredi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Samedi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Dimanche</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+            </div>
+    </div>
+                </section>
+
+                            <div class="map-item" data-lat="48.121834" data-lng="5.138893">
+        <div id="map-mobile" class="adp-map-item map">&nbsp;</div>
+    </div>
+
+                
+                                    <section class="fd_bloc adpts_description">
+    <p>Notre centre hospitalier vous reçoit quotidiennement pour tous soins et traitements de santé spécifiques.<br/>Visitez notre site internet ou consultez-nous directement pour obtenir davantage de renseignements.</p>
+</section>                
+                                                            
+                
+                                    <div id="adp-reviewSection-fd" class="fd_bloc ">
+    <h2 id="avis">Avis</h2>
+    <div class="average_container">
+                    <p>Ce professionnel n'a pas encore d'avis, soyez le 1er à partager votre expérience avec la communauté.</p>
+                <div class="write_comment" onclick="atinternetClick('ecrire_avis', 'figarosante', 'FD_SEO');">
+            <span tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvY29udHJpYnV0aW9uL2F2aXMvMDM3NjIwMTU=">
+                <img src="/statics/_common/ecrire-un-avis.svg" alt="Ecrire un avis"/>
+            </span>
+        </div>
+    </div>
+    <p class="txt_md">
+                Tous nos avis sont modérés.
+        <span tabindex="0" class="link adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvaW5mb3NsZWdhbGVzL3NlcnZpY2UtYXZpcy1jb25zb21tYXRldXJzLw==">En savoir plus sur le service de dépôt d'avis.</span><br/>
+            </p>
+</div>                
+                
+                <section id="adp-askinfos" class="cqfd">
+    <div class="fd_bloc clearfix" onclick="atinternetClick('cest_mon_entreprise', 'figarosante', 'FD_SEO');">
+        <span tabindex="0"class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvcGx1c2Rlc2VydmljZXMvZ2VyZXItbWEtZmljaGUtcGFnZXNqYXVuZXM=">
+            <img src="/statics/_common/itsmylife.svg" width="100" alt=""/>
+            <p><strong class="bold">C’est mon entreprise&nbsp;!</strong><br>
+            J’indique toutes les informations utiles à mes clients.</p>
+        </span>
+    </div>
+    <div class="fd_bloc clearfix" onclick="atinternetClick('cqfd', 'figarosante', 'FD_SEO');">
+        <span tabindex="0"class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvcHJvcy9jcWZkP2Vwaj0wMzc2MjAxNQ==" target="_blank">
+            <img src="/statics/_common/iknowhim.svg" width="100" alt=""/>
+            <p><strong class="bold">Je connais ce professionnel&nbsp;!</strong><br>
+            Je partage mes informations pour enrichir sa présentation.</p>
+        </span>
+    </div>
+</section>
+                                    <section id="adp-details-prestation" class="fd_bloc adpts_details-prestation">
+    <h2>En détails</h2>
+    <div class="detail_bloc">
+                                                                                        <h3 class="h4">Prestations</h3>
+                    <ul class="list-v list-2-columns">
+                                                    <li>Rééducation fonctionnelle</li>
+                                                    <li>Scintigraphie</li>
+                                                    <li>Chirurgie ambulatoire</li>
+                                                    <li>Service de soins palliatifs</li>
+                                                    <li>Urgence ophtalmologique</li>
+                                                    <li>Hôpital gériatrique</li>
+                                                    <li>Service de neurologie</li>
+                                                    <li>Service de radiologie</li>
+                                                    <li>Service d&#039;irm</li>
+                                                    <li>Service de gériatrie</li>
+                                                    <li>Service de gérontologie</li>
+                                                    <li>Urgence de maternité</li>
+                                                    <li>Service de néonatalogie</li>
+                                                    <li>Service de gynécologie</li>
+                                                    <li>Hospitalisation à temps partiel de jour</li>
+                                                    <li>Service de gynécologie obstétrique</li>
+                                                    <li>Rééducation neurologique</li>
+                                                    <li>Structure de soin pour hospitalisation à domicile</li>
+                                                    <li>Soins de suite et de réadaptation</li>
+                                                    <li>Soins de suite et de réadaptation gériatrique</li>
+                                                    <li>Hospitalisation à temps partiel de nuit</li>
+                                                    <li>Service de médecine d&#039;urgence</li>
+                                                    <li>Service de réanimation néonatale</li>
+                                                    <li>Service de pédiatrie</li>
+                                                    <li>Consultation allaitement</li>
+                                                    <li>Service de cardiologie</li>
+                                                    <li>Pôle diabétologie</li>
+                                                    <li>Service d&#039;anesthésie</li>
+                                                    <li>Hôpital de jour</li>
+                                                    <li>Urgence gynécologique</li>
+                                                    <li>Service d&#039;échographie</li>
+                                                    <li>Service de rhumatologie</li>
+                                                    <li>Consultation en gynécologie</li>
+                                                    <li>Aide-soignante</li>
+                                                    <li>Service d&#039;odontologie</li>
+                                                    <li>Service de gastro-entérologie</li>
+                                                    <li>Consultation en neurologie</li>
+                                                    <li>Service d&#039;addictologie</li>
+                                                    <li>Consultation en pédiatrie</li>
+                                                    <li>Service de scanner</li>
+                                                    <li>Pôle mère enfant</li>
+                                                    <li>Adultes</li>
+                                                    <li>Enfants</li>
+                                                    <li>Soins de suite, anesthésie et unité de soins continus</li>
+                                                    <li>Seniors</li>
+                                                    <li>Centre hospitalier</li>
+                                                    <li>Médecine interne</li>
+                                                    <li>Neurologie</li>
+                                                    <li>Pneumo-oncologie</li>
+                                                    <li>Hépato-gatro-entérologie et endoscopie digestive</li>
+                                                    <li>Chirurgies diverses</li>
+                                                    <li>Néonatologie-pédiatrie, gynécologie obstétrique</li>
+                                                    <li>Médecine nucléaire, radiologie-échographie, scanner et irm</li>
+                                                    <li>Rhumatologie</li>
+                                                    <li>Réeducation fonctionnelle</li>
+                                                    <li>Soins infirmiers à domicile</li>
+                                                    <li>Odontologie</li>
+                                                    <li>Centre antirabique</li>
+                                                    <li>Gynécologie obstétrique</li>
+                                                    <li>Irm</li>
+                                                    <li>Anesthésie</li>
+                                                    <li>Endoscopie digestive</li>
+                                                    <li>Hépato-gatro-entérologie</li>
+                                                    <li>Scanner</li>
+                                                    <li>Radiologie-échographie</li>
+                                                    <li>Médecine interne, nucléaire</li>
+                                                    <li>Unité de soins continus</li>
+                                                    <li>Néonatologie-pédiatrie</li>
+                                                    <li>Tout public</li>
+                                                    <li>Cours de préparation à l&#039;accouchement</li>
+                                                    <li>Auxiliaire de puériculture</li>
+                                                    <li>Aide-soignante en pédiatrie</li>
+                                                    <li>Service périnatal</li>
+                                            </ul>
+                                                                <h3 class="h4">Services et Prestations</h3>
+                    <ul class="list-v list-2-columns">
+                                                    <li>Rééducation fonctionnelle</li>
+                                                    <li>Scintigraphie</li>
+                                                    <li>Chirurgie ambulatoire</li>
+                                                    <li>Service de soins palliatifs</li>
+                                                    <li>Urgence ophtalmologique</li>
+                                                    <li>Hôpital gériatrique</li>
+                                                    <li>Service de neurologie</li>
+                                                    <li>Service de radiologie</li>
+                                                    <li>Service d&#039;irm</li>
+                                                    <li>Service de gériatrie</li>
+                                                    <li>Service de gérontologie</li>
+                                                    <li>Urgence de maternité</li>
+                                                    <li>Service de néonatalogie</li>
+                                                    <li>Service de gynécologie</li>
+                                                    <li>Hospitalisation à temps partiel de jour</li>
+                                                    <li>Service de gynécologie obstétrique</li>
+                                                    <li>Rééducation neurologique</li>
+                                                    <li>Structure de soin pour hospitalisation à domicile</li>
+                                                    <li>Soins de suite et de réadaptation</li>
+                                                    <li>Soins de suite et de réadaptation gériatrique</li>
+                                                    <li>Hospitalisation à temps partiel de nuit</li>
+                                                    <li>Service de médecine d&#039;urgence</li>
+                                                    <li>Service de réanimation néonatale</li>
+                                                    <li>Service de pédiatrie</li>
+                                                    <li>Consultation allaitement</li>
+                                                    <li>Service de cardiologie</li>
+                                                    <li>Pôle diabétologie</li>
+                                                    <li>Service d&#039;anesthésie</li>
+                                                    <li>Hôpital de jour</li>
+                                                    <li>Urgence gynécologique</li>
+                                                    <li>Service d&#039;échographie</li>
+                                                    <li>Service de rhumatologie</li>
+                                                    <li>Consultation en gynécologie</li>
+                                                    <li>Aide-soignante</li>
+                                                    <li>Service d&#039;odontologie</li>
+                                                    <li>Service de gastro-entérologie</li>
+                                                    <li>Consultation en neurologie</li>
+                                                    <li>Service d&#039;addictologie</li>
+                                                    <li>Consultation en pédiatrie</li>
+                                                    <li>Service de scanner</li>
+                                                    <li>Pôle mère enfant</li>
+                                                    <li>Adultes</li>
+                                                    <li>Enfants</li>
+                                                    <li>Soins de suite, anesthésie et unité de soins continus</li>
+                                                    <li>Seniors</li>
+                                                    <li>Centre hospitalier</li>
+                                                    <li>Médecine interne</li>
+                                                    <li>Neurologie</li>
+                                                    <li>Pneumo-oncologie</li>
+                                                    <li>Hépato-gatro-entérologie et endoscopie digestive</li>
+                                                    <li>Chirurgies diverses</li>
+                                                    <li>Néonatologie-pédiatrie, gynécologie obstétrique</li>
+                                                    <li>Médecine nucléaire, radiologie-échographie, scanner et irm</li>
+                                                    <li>Rhumatologie</li>
+                                                    <li>Réeducation fonctionnelle</li>
+                                                    <li>Soins infirmiers à domicile</li>
+                                                    <li>Odontologie</li>
+                                                    <li>Centre antirabique</li>
+                                                    <li>Gynécologie obstétrique</li>
+                                                    <li>Irm</li>
+                                                    <li>Anesthésie</li>
+                                                    <li>Endoscopie digestive</li>
+                                                    <li>Hépato-gatro-entérologie</li>
+                                                    <li>Scanner</li>
+                                                    <li>Radiologie-échographie</li>
+                                                    <li>Médecine interne, nucléaire</li>
+                                                    <li>Unité de soins continus</li>
+                                                    <li>Néonatologie-pédiatrie</li>
+                                                    <li>Tout public</li>
+                                                    <li>Cours de préparation à l&#039;accouchement</li>
+                                                    <li>Auxiliaire de puériculture</li>
+                                                    <li>Aide-soignante en pédiatrie</li>
+                                                    <li>Service périnatal</li>
+                                            </ul>
+                                        </div>
+</section>                                
+                
+                                    <section class="fd_bloc adpts_informations-pratiques">
+                        <h2>Informations pratiques</h2>
+                        <h3 class="h4">Horaires d'ouverture</h3>
+                            <div class="schedules_bloc">
+                                    <dl>
+                                    <dt>Lundi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Mardi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Mercredi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Jeudi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Vendredi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Samedi</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+                    <dl>
+                                    <dt>Dimanche</dt>
+                    <dd>
+                                                    24/24-7/7
+                                            </dd>
+                            </dl>
+            </div>
+                            <h3 class="h4"> Moyens de paiement</h3>
+    <ul class="payment_bloc">
+                    <li class="payment_element payment_element_cb">
+                CB
+            </li>
+                    <li class="payment_element payment_element_especes">
+                Espèces
+            </li>
+                    <li class="payment_element payment_element_cheque">
+                Chèque
+            </li>
+                    <li class="payment_element payment_element_visa">
+                Visa
+            </li>
+                    <li class="payment_element payment_element_mastercard">
+                Mastercard
+            </li>
+            </ul>
+                    </section>
+                
+                
+                                    <section class="fd_bloc adpts_donnees-juridique">
+    <h2>Données financières et juridiques</h2>
+            
+        <h3 class="h4">Etablissement</h3>
+        <div class="b2b_bloc adpts_etablissement">
+                                                                        <dl>
+                            <dt class="bold">SIRET</dt>
+                            <dd>26520004800014</dd>
+                        </dl>
+                                                                                                            <dl>
+                            <dt class="bold">Code</dt>
+                            <dd>8610Z</dd>
+                        </dl>
+                                                                                                            <dl>
+                            <dt class="bold">Effectif de l&#039;établissement </dt>
+                            <dd>500 à 999 salariés</dd>
+                        </dl>
+                                                                                                            <dl>
+                            <dt class="bold">Typologie de l&#039;établissement</dt>
+                            <dd>Siège</dd>
+                        </dl>
+                                                        </div>
+    
+                    <h3 class="h4">Entreprise</h3>
+        <div class="b2b_bloc adpts_entreprise">
+                                                                        <dl>
+                            <dt class="bold">SIREN</dt>
+                            <dd>265200048</dd>
+                        </dl>
+                                                                                                            <dl>
+                            <dt class="bold">Forme juridique</dt>
+                            <dd>7364</dd>
+                        </dl>
+                                                                                                            <dl>
+                            <dt class="bold">Création d&#039;entreprise</dt>
+                            <dd>1 janv. 1978</dd>
+                        </dl>
+                                                                                                                                        <dl>
+                            <dt class="bold">Effectif de l&#039;entreprise</dt>
+                            <dd>500 à 999 salariés</dd>
+                        </dl>
+                                                                                                                                                                                                                            <dl>
+                                <dt class="bold">Autres dénominations</dt>
+                                                                    <dd>Centre Hospitalier De Chaumont</dd>
+                                                            </dl>
+                                                                                                                                    <dl>
+                            <dt class="bold">Nombre d&#039;établissements</dt>
+                            <dd>0</dd>
+                        </dl>
+                                                        </div>
+    </section>                            </div>
+
+            <div class="fd_column_right   adp-page__sidebar--partner">
+                <div>            <div class="map-item" data-lat="48.121834" data-lng="5.138893">
+        <div id="map-desktop" class="map">&nbsp;</div>
+    </div>
+</div>
+            </div>
+        </div>
+
+                    <aside class="list_links">
+    <h2 class="h4">Ce professionnel est également référencé dans l'activité suivante</h2>
+    <ul class="list_pro">
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/chirurgie-generale">
+                    <p>
+                        <span class="bold">Chirurgie generale</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/addictologue">
+                    <p>
+                        <span class="bold">Addictologue</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/addictologue">
+                    <p>
+                        <span class="bold">Addictologue</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/troubles-addictifs">
+                    <p>
+                        <span class="bold">Troubles addictifs</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/greffe-de-cheveux">
+                    <p>
+                        <span class="bold">Greffe de cheveux</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/greffe-de-cheveux">
+                    <p>
+                        <span class="bold">Greffe de cheveux</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/soins-palliatifs">
+                    <p>
+                        <span class="bold">Soins palliatifs</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/traitement-de-la-douleur">
+                    <p>
+                        <span class="bold">Traitement de la douleur</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/gastro-enterologue">
+                    <p>
+                        <span class="bold">Gastro enterologue</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/clinique-medicale">
+                    <p>
+                        <span class="bold">Clinique medicale</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/centre-de-depistage">
+                    <p>
+                        <span class="bold">Centre de depistage</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/medecine-interne">
+                    <p>
+                        <span class="bold">Medecine interne</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/puericultrice">
+                    <p>
+                        <span class="bold">Puericultrice</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/puericultrice">
+                    <p>
+                        <span class="bold">Puericultrice</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/puericultrice">
+                    <p>
+                        <span class="bold">Puericultrice</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/nephrologie">
+                    <p>
+                        <span class="bold">Nephrologie</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/andrologie">
+                    <p>
+                        <span class="bold">Andrologie</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/andrologie">
+                    <p>
+                        <span class="bold">Andrologie</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/chirurgien-urologue">
+                    <p>
+                        <span class="bold">Chirurgien urologue</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/gynecologie-medicale">
+                    <p>
+                        <span class="bold">Gynecologie medicale</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/gynecologue-obstetricien">
+                    <p>
+                        <span class="bold">Gynecologue obstetricien</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/chirurgie-pediatrique">
+                    <p>
+                        <span class="bold">Chirurgie pediatrique</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/departement/haute-marne/chirurgie-pediatrique">
+                    <p>
+                        <span class="bold">Chirurgie pediatrique</span>
+                        <br>
+                        en Haute marne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/chirurgie-pediatrique">
+                    <p>
+                        <span class="bold">Chirurgie pediatrique</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/chirurgie-de-la-main">
+                    <p>
+                        <span class="bold">Chirurgie de la main</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/chirurgie-de-la-main">
+                    <p>
+                        <span class="bold">Chirurgie de la main</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/orthopediste">
+                    <p>
+                        <span class="bold">Orthopediste</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/orthopediste-orthesiste">
+                    <p>
+                        <span class="bold">Orthopediste orthesiste</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/ville/chaumont-52/traumatologie">
+                    <p>
+                        <span class="bold">Traumatologie</span>
+                        <br>
+                        à Chaumont
+                    </p>
+                </a>
+            </li>
+                    <li>
+                <a class="adp-directoryLinks__link" href="/annuaire/region/champagne-ardenne/readaptation-fonctionnelle">
+                    <p>
+                        <span class="bold">Readaptation fonctionnelle</span>
+                        <br>
+                        en Champagne ardenne
+                    </p>
+                </a>
+            </li>
+            </ul>
+</aside>                            <aside class="list_links">
+    <h2 class="h4">A découvrir également</h2>
+    <ul class="list_pro">
+                    <li>
+                <a href="/professionnels/VlFfUEdbSlk"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie Du Cavalier</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/Vl5UWEtaQVg"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Audioprothésiste Saint-Dizier - Audika</h3>
+                    <p class="txt_sm">Audioprothésiste</p>
+                    <p class="txt_sm">52100 Saint Dizier</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U19WVEddSlA"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Karine Guichard</h3>
+                    <p class="txt_sm">sophrologie</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U1pSV0tfSlA"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Jean Paul Haas</h3>
+                    <p class="txt_sm">Ostéopathe</p>
+                    <p class="txt_sm">52140 Saulxures</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U1xUVEBeQFU"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Yohan Gervasoni</h3>
+                    <p class="txt_sm">soins hors d&#039;un cadre réglementé</p>
+                    <p class="txt_sm">52330 Juzennecourt</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U1lTUEVeR1c"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Alexandre Chemin</h3>
+                    <p class="txt_sm">Psychanalyste</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U1xVVkVfR1c"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Caisse Assurance Retraite Santé Travail</h3>
+                    <p class="txt_sm">sécurité sociale</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VlhSU0NcRVQ"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie De La Marne</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52300 Joinville</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VlxTWERWQVM"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Entendre Laboratoire Mathias Adhérent</h3>
+                    <p class="txt_sm">Audioprothésiste</p>
+                    <p class="txt_sm">52100 Saint Dizier</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U1leVkZcRlA"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Hervé Toublanc</h3>
+                    <p class="txt_sm">Ostéopathe</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VllQVEddRFU"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie De La Vallee</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52300 Joinville</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VlleUUFeQFQ"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Association Le Bois L&#039;Abbesse</h3>
+                    <p class="txt_sm">Centre médico-social</p>
+                    <p class="txt_sm">52100 Saint Dizier</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U15SUEpeS1I"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Ophélie Henry</h3>
+                    <p class="txt_sm">Diététicien</p>
+                    <p class="txt_sm">52500 Fayl Billot</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/Vl9UU0dfQlU"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie du Verger</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52400 Bourbonne les Bains</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VlhfV0teRlU"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie de la Concorde</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VltfWUVYRVA"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie Bourguignon</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VltfWERWR1M"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie De La Préfecture</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52000 Chaumont</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VlheVEBWRVY"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie Schvartz</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52200 Langres</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/VlBVWEJcSlI"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Pharmacie De La Citadelle</h3>
+                    <p class="txt_sm">Pharmacie</p>
+                    <p class="txt_sm">52200 Langres</p>
+                </a>
+            </li>
+                    <li>
+                <a href="/professionnels/U1hQUUBfQFA"
+                   onclick="atinternetClick('proposition_pro', 'figarosante', 'FD_SEO');">
+                    <h3 class="txt_sm">Lidl</h3>
+                    <p class="txt_sm">supermarchés, hypermarchés</p>
+                    <p class="txt_sm">52400 Bourbonne les Bains</p>
+                </a>
+            </li>
+            </ul>
+</aside>        
+
+        <div class="adp-modal-image-displayer">
+            <div class="adp-modal-image-frame"></div>
+            <div class="adp-modal-image-action adp-modal-image-action_prev">
+                <i class="adp-icon adp-icon--chevron-gauche"></i>
+            </div>
+            <div class="adp-modal-image-action adp-modal-image-action_next">
+                <i class="adp-icon adp-icon--chevron-droit"></i>
+            </div>
+            <div class="adp-modal-image-action adp-modal-image-action_close">
+                <i class="adp-icon adp-icon--fermer"></i>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="/assets/solocaladpfrontend/js/map-FD.js?v=20250305160622"></script>
+    </div>
+
+    
+<footer class="footer-localpartner" role="contentinfo">
+    <div class="wrapper">
+        <div class="logo">
+                            <img src="/statics/_common/imgs/lp/localpartner.png" alt="" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cubG9jYWxwYXJ0bmVyLmZy"  onclick="atinternetClick('logo_footer', 'figarosante', 'FD_SEO');" >
+                        <div class="move_top">
+                <span class="triangle"></span>
+                <p>Haut de page</p>
+            </div>
+        </div>
+        <div class="footer-col ">
+            <div>
+                <h2>Rejoignez-nous</h2>
+                <ul>
+                    <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cuc29sb2NhbC5jb20vbGFuZGluZy9pbnNjcmlwdGlvbi1wYWdlc2phdW5lcw=="   onclick="atinternetClick('ajouter_etablissement_footer', 'figarosante', 'FD_SEO');" >
+                        Ajoutez votre établissement
+                    </li>
+                    <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cuc29sb2NhbC5jb20vbGFuZGluZy9tZWRpYS1zb2x1dGlvbi1jb25uZWN0"  onclick="atinternetClick('boost_visibilite_footer', 'figarosante', 'FD_SEO');" >
+                        Boostez votre visibilité
+                    </li>
+                    <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvcGx1c2Rlc2VydmljZXMvbm91c2NvbnRhY3Rlcg=="  onclick="atinternetClick('contact_footer', 'figarosante', 'FD_SEO');" >
+                        Nous contacter
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>LocalPartner</h2>
+                <ul>
+                    <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvaW5mb3NsZWdhbGVzL21lbnRpb25zbGVnYWxlcy8="   onclick="atinternetClick('mention_legale_footer', 'figarosante', 'FD_SEO');" >
+                        Mentions légales
+                    </li>
+                    <li tabindex="0" class="adpJam adpJam_tgt_L3BvbGl0aXF1ZS1jb29raWVz"   onclick="atinternetClick('cookies_footer', 'figarosante', 'FD_SEO');" >
+                        Vie privée
+                    </li>
+                    <li tabindex="0" class="adpJam adpJam_tgt_L2FjY2Vzc2liaWxpdGU="   onclick="atinternetClick('accessibilite_footer', 'figarosante', 'FD_SEO');" >
+                        Accessibilité
+                    </li>
+                    <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cucGFnZXNqYXVuZXMuZnIvbGFuZGluZ3BhZ2UvYWlkZS1tZWRpYS8=">
+                        Signalez un contenu
+                    </li>
+                </ul>
+            </div>
+                        <div>
+                <h2>Nos partenaires</h2>
+                <ul>
+                                                            <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cub29pbnZlc3Rpci5mci8=">
+                            Ooinvestir, spécialiste de l&#039;investissement immobilier
+                        </li>
+                                                                                <li tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cub290cmF2YXV4LmZyLw==">
+                            Devis travaux gratuits avec Ootravaux
+                        </li>
+                                                    </ul>
+            </div>
+                                </div>
+        <div class="localpartner-link">
+            <p>Découvrez toutes nos plateformes LocalPartner</p>
+            <span tabindex="0" class="adpJam adpJam_tgt_aHR0cHM6Ly93d3cubG9jYWxwYXJ0bmVyLmZy">www.localpartner.fr</span>
+        </div>
+        <p class="corporation">Solocal © 2025</p>
+    </div>
+</footer>
+
+<script type="text/javascript" defer> 
+    const moveUp = document.getElementsByClassName('triangle')[0]
+    moveUp.onclick = () =>  {
+        window.scrollTo({top: 0, behavior: 'smooth'})
+    }
+</script>
+
+    <footer id="fig-footer" class="figh figh-footer"> <ul class="figh-footer__list"> <li class="figh-footer__item" data-js="figconsent-handle-consent"> <a class="figh-footer__link">Param&eacute;trer les cookies</a> </li> <li class="figh-footer__item" data-id="42548"> <a class="figh-footer__link" href="http://www.lefigaro.fr/plusdefigaro/" title="Plan du site (nouvelle fen&ecirc;tre)" aria-label="Plan du site (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Plan du site</a> </li> <li class="figh-footer__item" data-id="42549"> <a class="figh-footer__link" href="http://mentions-legales.lefigaro.fr/page/charte-de-participation" title="Charte (nouvelle fen&ecirc;tre)" aria-label="Charte (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Charte</a> </li> <li class="figh-footer__item" data-id="42550"> <a class="figh-footer__link" href="http://mentions-legales.lefigaro.fr/page/cgu" title="CGU (nouvelle fen&ecirc;tre)" aria-label="CGU (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">CGU</a> </li> <li class="figh-footer__item" data-id="42551"> <a class="figh-footer__link" href="http://boutique.lefigaro.fr/cgv" title="CGV (nouvelle fen&ecirc;tre)" aria-label="CGV (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">CGV</a> </li> <li class="figh-footer__item" data-id="42552"> <a class="figh-footer__link" href="http://mentions-legales.lefigaro.fr/page/infos-cookies" title="Infos cookies (nouvelle fen&ecirc;tre)" aria-label="Infos cookies (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Infos cookies</a> </li> <li class="figh-footer__item" data-id="42553"> <a class="figh-footer__link" href="https://faq.lefigaro.fr/hc/fr" title="FAQ (nouvelle fen&ecirc;tre)" aria-label="FAQ (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">FAQ</a> </li> <li class="figh-footer__item" data-id="42554"> <a class="figh-footer__link" href="https://faq.lefigaro.fr/hc/fr/requests/new" title="Contact (nouvelle fen&ecirc;tre)" aria-label="Contact (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Contact</a> </li> <li class="figh-footer__item" data-id="42555"> <a class="figh-footer__link" href="http://boutique.lefigaro.fr/rayon/4-abonnement?ga_source=footer_figaro" title="Abonnements (nouvelle fen&ecirc;tre)" aria-label="Abonnements (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Abonnements</a> </li> <li class="figh-footer__item" data-id="42556"> <a class="figh-footer__link" href="http://www.lefigaro.fr/services/" title="Services (nouvelle fen&ecirc;tre)" aria-label="Services (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Services</a> </li> <li class="figh-footer__item" data-id="42557"> <a class="figh-footer__link" href="http://mentions-legales.lefigaro.fr/page/mentions-legales" title="Mentions l&eacute;gales (nouvelle fen&ecirc;tre)" aria-label="Mentions l&eacute;gales (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Mentions l&eacute;gales</a> </li> <li class="figh-footer__item" data-id="42558"> <a class="figh-footer__link" href="http://www.figaromedias.fr/" title="Publicit&eacute; (nouvelle fen&ecirc;tre)" aria-label="Publicit&eacute; (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Publicit&eacute;</a> </li> <li class="figh-footer__item" data-id="42559"> <a class="figh-footer__link" href="http://articles.lefigaro.fr/" title="Sitemap (nouvelle fen&ecirc;tre)" aria-label="Sitemap (nouvelle fen&ecirc;tre)" target="_blank" rel="noopener">Sitemap</a> </li> </ul></footer>
+            <script type="text/javascript">
+
+        pa.setConfigurations({
+        site: 546924,
+        collectDomain: "https://at.pagesjaunes.fr",
+        path: "/wa.pj",
+        privacyDefaultMode: "exempt"
+    });
+
+    function sendSearchAT() {
+        if (typeof pa == 'undefined') {
+            return;
+        }
+        if (!isTrackingAllowed()) {
+            pa.consent.setMode('opt-out');
+        }
+        else {
+            pa.consent.setMode('essential');
+        }
+        
+
+
+
+                                    pa.sendEvent('page.display', {'page':'FD','site_level2':AtInternetDirSlug,'id_requete':'74647d-dlvw2_603114663331754494','typologie_site':'media','epj':'03762015' });
+                    
+    }
+    sendSearchAT();
+
+    function sendRefreshCartoSearch(requestId) {
+        if (typeof pa == 'undefined') {
+            return;
+        }
+        if (!isTrackingAllowed()) {
+            pa.consent.setMode('opt-out');
+        }
+        else {
+            pa.consent.setMode('essential');
+        }
+
+        pa.sendEvent('page.display', {'page':'LR_CARTO_REFRESH','site_level2':AtInternetDirSlug,'id_requete':requestId,'typologie_site':'media' });
+
+    }
+
+    /**
+     * Cette fonction permet de comptabiliser les clics contact
+     * @param action
+     * @param slug
+     * @param typePage
+     */
+    function atinternetClick(action, slug, typePage, chapter3) {
+        if (typeof pa == 'undefined') {
+            return;
+        }
+        if (!isTrackingAllowed()) {
+            pa.consent.setMode('opt-out');
+        }
+        else {
+            pa.consent.setMode('essential');
+        }
+
+        return pa.sendEvent('click.action',{'click_chapter1':slug,'click_chapter2':typePage,'click':action,site_level2: AtInternetDirSlug, typologie_site: 'media'});
+
+    }
+
+
+    function isTrackingAllowed() {
+        let cookieName = 'privacyCookieAccepted=';
+        if (!document.cookie.includes("privacyCookieAccepted")) {
+            return true;
+        }
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(cookieName) === 0) {
+                return c.substring(cookieName.length, c.length) === '1';
+            }
+        }
+        return false;
+    }
+
+</script>
+
+                <noscript>
+    <img width="1" height="1" src="https://at.pagesjaunes.fr/wa.pj?s=546924&s2=2&p=figarosante::FD&x1=[FD]&x2=61230&x3=[orne]&x4=[basse_normandie]&x5=1&x6=[hopital]&x7=[chaumont]&x10=74647d-dlvw2_603114663331754494" >
+</noscript>
+
+    
+    <script>
+      $(window).on('resize', function () {
+        $('body').addClass('adp-lrv3-unfolded');
+      });
+
+      $(document).ready(function ()
+      {
+        // console.log('lr3 script');
+        $('body').addClass('adp-lrv3-unfolded');
+        $(window).scroll(function ()
+        {
+          var scrolltop = $(window).scrollTop();
+          if( scrolltop > 100)
+          {
+            //noop so no overhead
+          }
+          else if (scrolltop > 50)
+          {
+            $('body').removeClass('adp-lrv3-unfolded');
+          }
+          else
+          {
+            $('body').addClass('adp-lrv3-unfolded');
+          }
+        });
+      });
+    </script>
+
+</body>
+</html>

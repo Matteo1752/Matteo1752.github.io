@@ -27,10 +27,15 @@ markup:
 Menus:
   main:
     - identifier: Ap
-      name: Ap et Stage
+      name: Ap et projets
       title: Ap stages
       url: /Ap
       weight: 1
+    - identifier: Stages
+      name: Stages
+      title: Stages
+      url: /stages
+      weight: 2
 
     #Dropdown menu
     # - identifier: dropdown
@@ -163,7 +168,7 @@ params:
     enable: true
     title: "Expériences professionelles"
     items:
-      - job: "Apprenti"
+      - job: "Stagiaire"
         company: "Forges de Bologne"
         companyUrl: "https://example.com"
         date: "20 Mars 2023 - 14 Avril 2023 et 21 Novembre 2023-8 Decembre 2023"
@@ -171,7 +176,7 @@ params:
           enable: false
           url: "https://example.com"
         content: "Stage réalisé en Terminal bac pro lors de mes deux période de stage"
-      - job: "Apprenti"
+      - job: "Stagiaire"
         company: "Conseil départemental Chaumont"
         companyUrl: "https://example.com"
         date: "17 janvier 2022 au 4 Février 2022 et 30 Mai 2022 au 8 Juillet 2022"
@@ -179,24 +184,41 @@ params:
           enable: false
           url: "https://example.com"
         content: "Stage réalisé en premiere bac pro lors de mes deux periodes de stage"
-      - job: "Apprenti"
+      - job: "Stagiaire"
         company: "Hopital de Chaumont"
         companyUrl: "https://example.com"
-        date: "27 mai au 28 juin"
+        date: "27 mai 2024 au 28 juin 2024"
         featuredLink:
           enable: false
           url: "https://example.com"
-        content: "Stage réalisé lors de ma première année de BTS SIO"
+        content: "Stage réalisé lors de ma première année de BTS SIO"   
+      - job: "Blanchisseur"
+        company: "Hopital de Chaumont"
+        companyUrl: "https://example.com"
+        date: "08 juillet 2024 au 19 juillet 2024"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: "Job d'été"
+      - job: "Stagiaire"
+        company: "Clinique de Chaumont"
+        companyUrl: "https://example.com"
+        date: "6 janvier 2025 au 7 février 2025"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: "Stage réalisé lors de ma seconde année de BTS SIO"
+
 
 
 
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: "Parcours scolaire"
     index: false
     items:
-      - title: "Bts SIO (Services Informatiques aux organisations)"
+      - title: "Bts SIO (Services Informatiques aux Organisations)"
         school:
           name: "Lycée Edme Bouchardon,Chaumont"
           url: "https://example.org"

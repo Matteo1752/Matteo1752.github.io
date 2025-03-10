@@ -5,44 +5,56 @@
     <loc>http://localhost:1313/ap/ap01/</loc>
     <lastmod>2023-09-30T22:53:58+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ap/</loc>
-    <lastmod>2023-09-30T22:53:58+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/emoji-support/</loc>
-    <lastmod>2023-09-30T22:53:58+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2023-09-30T22:53:58+05:30</lastmod>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/markdown-syntax/</loc>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mathjax/</loc>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/stages/stage2/</loc>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/stages/</loc>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-06T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/stages/stage1/</loc>
+    <lastmod>2024-05-27T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ap/ap05/</loc>
+    <lastmod>2024-01-23T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ap/ap06/</loc>
+    <lastmod>2024-01-23T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ap/</loc>
+    <lastmod>2024-01-23T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ap/ap04/</loc>
+    <lastmod>2023-10-18T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ap/ap03/</loc>
+    <lastmod>2023-10-03T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/emoji-support/</loc>
     <lastmod>2023-09-30T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sample/</loc>
     <lastmod>2023-09-30T22:53:58+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-09-30T22:53:58+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/markdown-syntax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/mathjax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ap/ap03/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <loc>http://localhost:1313/ap/ap02/</loc>
+    <lastmod>2023-09-28T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ap/ap02/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ap/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
