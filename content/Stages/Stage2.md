@@ -12,6 +12,8 @@ description: ""
 toc: true
 mathjax: true
 ---
+
+Vous pouvez trouver l'attestation de stage au lien suivant: [Attestation stage SIO2 COTTON Matteo](/docs/Stage2.docx)
 ## Projet 1:
 
 

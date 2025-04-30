@@ -36,6 +36,11 @@ Menus:
       title: Stages
       url: /stages
       weight: 2
+    - identifier: Veille
+      name: Veille
+      title: Veille
+      url: /veille
+      weight: 3
 
     #Dropdown menu
     # - identifier: dropdown

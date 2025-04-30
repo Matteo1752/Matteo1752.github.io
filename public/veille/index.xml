@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veilles on Matteo profile</title>
+    <link>http://localhost:1313/veille/</link>
+    <description>Recent content in Veilles on Matteo profile</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 03 Mar 2025 23:29:21 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/veille/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L&#39;intelligence artificielle dans le football</title>
+      <link>http://localhost:1313/veille/veille/</link>
+      <pubDate>Mon, 03 Mar 2025 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/veille/veille/</guid>
+      <description>&lt;p&gt;Dans le cadre de ma veille technologique, j&amp;rsquo;ai choisi de me concentrer sur&#xA;Vous pouvez consulter le dossier complet de cette veille en suivant le lien ci-dessous : &lt;a href=&#34;http://localhost:1313/docs/Veille.pdf&#34;&gt;Veille technologique COTTON Matteo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
