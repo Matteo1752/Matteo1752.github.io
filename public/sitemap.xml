@@ -41,11 +41,11 @@
     <loc>http://localhost:1313/ap/ap11/</loc>
     <lastmod>2025-03-11T19:53:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ap/projet1/</loc>
-    <lastmod>2025-03-11T19:53:33+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/ap/b3/</loc>
     <lastmod>2025-02-23T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ap/projet1/</loc>
+    <lastmod>2025-03-11T19:53:33+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/ap/</loc>
     <lastmod>2025-03-11T19:53:33+05:30</lastmod>

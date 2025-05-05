@@ -13,7 +13,7 @@ toc: true
 mathjax: true
 ---
 
-Vous pouvez trouver l'attestation de stage au lien suivant: [Attestation stage SIO1 COTTON Matteo](/docs/Stage1.docx)
+Vous pouvez trouver l'attestation de stage au lien suivant: [Attestation stage SIO1 COTTON Matteo](/docs/Stage1.pdf)
 ## Projet 1: Configuration d'une borne Wi-Fi
 
 

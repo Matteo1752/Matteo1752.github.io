@@ -64,7 +64,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "images/Moi.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -135,7 +135,7 @@ params:
     title: "Matteo."
     subtitle: "Je suis actuellement en bts sio (sisr)"
     content: ". "
-    image: /images/Ap/images.jpeg
+    image: /images/Moi.png
     bottomImage:
       enable: false
     # roundImage: true # Make hero image circular | default false
@@ -161,12 +161,12 @@ params:
       enable: true
       title: "Je posséde plusieurs compétences d'informatique:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Mise en place d'un serveur windows AD"
+        - "Déploiement de machines par le réseau"
+        - "Mise en place d'un pare-feu Stormshield"
+        - "Mise en place de Proxmox"
+        - "Supervision réseau avec Zabbix"
+        - "Mise en place de fonctionnalités DNS,DHCP"
 
   # Experience
   experience:
@@ -242,19 +242,7 @@ params:
 
 
 
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Matteo profile
-        content: J'ai créer mon portfolio grace a hugo profil
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
+  
   #Contact
   contact:
     enable: false

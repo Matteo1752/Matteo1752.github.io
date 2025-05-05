@@ -13,9 +13,9 @@ toc: true
 mathjax: true
 ---
 
-Vous pouvez trouver l'attestation de stage au lien suivant: [Attestation stage SIO2 COTTON Matteo](/docs/Stage2.docx)
-## Projet 1:
+Vous pouvez trouver l'attestation de stage au lien suivant: [Attestation stage SIO2 COTTON Matteo](/docs/Stage2.pdf)
+Durant ce stage le but principal etait de depanner 
 
 
 
-## Projet 2:
+
