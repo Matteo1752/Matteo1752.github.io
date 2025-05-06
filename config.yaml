@@ -132,8 +132,8 @@ params:
   hero:
     enable: true
     intro: "Bonjour je suis"
-    title: "Matteo."
-    subtitle: "Je suis actuellement en bts sio (sisr)"
+    title: "COTTON Matteo."
+    subtitle: "Je suis actuellement en bts sio (Service Informatiques aux Organisation) Option SISR ( Solution D'infrastructure,Systémes et Réseaux)"
     content: ". "
     image: /images/Moi.png
     bottomImage:
@@ -147,14 +147,14 @@ params:
       newPage: false
 
       customIcons:
-        - icon: /fav.png
+        - icon: /images/Moi.png
           url: "https://example.com"
 
   # About
   about:
     enable: true
     title: "A propos de moi"
-    image: "/images/Ap/images.jpeg"
+    image: "/images/Moi.png/"
     content: |-
      Je suis actuellement étudiant au Lycée Edme Bouchardon a Chaumont en BTS SIO (Services Informatiques aux Organisations).J ai choisi l'option SISR ( Solution Infrastructures,Systeme et Réseaux).
     skills:
